@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} the code prints subsequent values of exp(k), k = 1,2,4,8,16,…}
+\PYG{k+kn}{from} \PYG{n+nn}{math} \PYG{k+kn}{import} \PYG{n}{exp}
+\PYG{n}{ex} \PYG{o}{=} \PYG{l+m+mi}{1}
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n}{exp}\PYG{p}{(}\PYG{n}{ex}\PYG{p}{))}
+	\PYG{n}{ex} \PYG{o}{*=} \PYG{l+m+mi}{2}
+\PYG{k}{except} \PYG{n+ne}{OverflowError}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Number is too big.\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

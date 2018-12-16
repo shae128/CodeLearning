@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{t} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}tau tau tau\PYGZsq{}}
+\PYG{n}{tIndex} \PYG{o}{=} \PYG{n+nb}{dict}\PYG{p}{()}
+
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{t}\PYG{p}{)):}
+    \PYG{n}{tIndex}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{t}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{tIndex}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{rfind}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ta\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{rfind}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ta\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{9}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{rfind}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ta\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{9}\PYG{p}{))}
+\end{Verbatim}

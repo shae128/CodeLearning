@@ -1,0 +1,30 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} This is noweb syntax to impart class on org\PYGZhy{}mode}
+\PYG{c+c1}{\PYGZsh{} This is the class itself}
+\PYG{k}{class} \PYG{n+nc}{Stack}\PYG{p}{:}
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}stk} \PYG{o}{=} \PYG{p}{[]}
+
+	\PYG{k}{def} \PYG{n+nf}{push}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}stk}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{val}\PYG{p}{)}
+
+	\PYG{k}{def} \PYG{n+nf}{pop}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n}{val} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}stk}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}
+		\PYG{k}{del} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}stk}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}
+		\PYG{k}{return} \PYG{n}{val}
+
+
+\PYG{n}{stack} \PYG{o}{=} \PYG{n}{Stack}\PYG{p}{()}
+\PYG{n}{stack}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{n}{stack}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+\PYG{n}{stack}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{stack}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{stack}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{stack}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{stack1} \PYG{o}{=} \PYG{n}{Stack}\PYG{p}{()}
+\PYG{n}{stack2} \PYG{o}{=} \PYG{n}{Stack}\PYG{p}{()}
+\PYG{n}{stack1}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{n}{stack2}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{n}{stack1}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{stack2}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{())}
+\end{Verbatim}

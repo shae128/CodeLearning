@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{MyZeroDivisionError}\PYG{p}{(}\PYG{n+ne}{ZeroDivisionError}\PYG{p}{):}
+	\PYG{k}{pass}
+
+\PYG{k}{def} \PYG{n+nf}{doTheDivision}\PYG{p}{(}\PYG{n}{mine}\PYG{p}{):}
+	\PYG{k}{if} \PYG{n}{mine}\PYG{p}{:}
+		\PYG{k}{raise} \PYG{n}{MyZeroDivisionError}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}worse news\PYGZdq{}}\PYG{p}{)}
+	\PYG{k}{else}\PYG{p}{:}		
+		\PYG{k}{raise} \PYG{n+ne}{ZeroDivisionError}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}bad news\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{for} \PYG{n}{mode} \PYG{o+ow}{in} \PYG{p}{[}\PYG{n+nb+bp}{False}\PYG{p}{,} \PYG{n+nb+bp}{True}\PYG{p}{]:}
+	\PYG{k}{try}\PYG{p}{:}
+		\PYG{n}{doTheDivision}\PYG{p}{(}\PYG{n}{mode}\PYG{p}{)}
+	\PYG{k}{except} \PYG{n+ne}{ZeroDivisionError}\PYG{p}{:}
+		\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Division by zero\PYGZsq{}}\PYG{p}{)}
+
+
+\PYG{k}{for} \PYG{n}{mode} \PYG{o+ow}{in} \PYG{p}{[}\PYG{n+nb+bp}{False}\PYG{p}{,} \PYG{n+nb+bp}{True}\PYG{p}{]:}
+	\PYG{k}{try}\PYG{p}{:}
+		\PYG{n}{doTheDivision}\PYG{p}{(}\PYG{n}{mode}\PYG{p}{)}
+	\PYG{k}{except} \PYG{n}{MyZeroDivisionError}\PYG{p}{:}
+		\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}My division by zero\PYGZsq{}}\PYG{p}{)}
+	\PYG{k}{except} \PYG{n+ne}{ZeroDivisionError}\PYG{p}{:}
+		\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Original division by zero\PYGZsq{}}\PYG{p}{)}		
+\end{Verbatim}

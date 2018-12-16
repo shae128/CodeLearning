@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Class}\PYG{p}{:}
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{First} \PYG{o}{=} \PYG{n}{val}
+
+	\PYG{k}{def} \PYG{n+nf}{setSecond}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{o}{=}\PYG{l+m+mi}{2}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Second} \PYG{o}{=} \PYG{n}{val}
+
+
+\PYG{n}{object1} \PYG{o}{=} \PYG{n}{Class}\PYG{p}{()}
+\PYG{n}{object2} \PYG{o}{=} \PYG{n}{Class}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+\PYG{n}{object2}\PYG{o}{.}\PYG{n}{setSecond}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{n}{object3} \PYG{o}{=} \PYG{n}{Class}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{)}
+\PYG{n}{object3}\PYG{o}{.}\PYG{n}{Third} \PYG{o}{=} \PYG{l+m+mi}{5}
+
+
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{object1}\PYG{o}{.}\PYG{n+nv+vm}{\PYGZus{}\PYGZus{}dict\PYGZus{}\PYGZus{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{object2}\PYG{o}{.}\PYG{n+nv+vm}{\PYGZus{}\PYGZus{}dict\PYGZus{}\PYGZus{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{object3}\PYG{o}{.}\PYG{n+nv+vm}{\PYGZus{}\PYGZus{}dict\PYGZus{}\PYGZus{}}\PYG{p}{)}
+\end{Verbatim}

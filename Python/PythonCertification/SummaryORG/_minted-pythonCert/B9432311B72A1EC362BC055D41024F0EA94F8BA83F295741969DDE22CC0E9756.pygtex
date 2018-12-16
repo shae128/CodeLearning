@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{fun}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+	\PYG{k}{yield} \PYG{n}{i}
+
+\PYG{k}{for} \PYG{n}{v} \PYG{o+ow}{in} \PYG{n}{fun}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{):}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{v}\PYG{p}{,} \PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{} \PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

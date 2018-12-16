@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{platform} \PYG{k+kn}{import} \PYG{n}{system}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{system}\PYG{p}{())}
+\end{Verbatim}

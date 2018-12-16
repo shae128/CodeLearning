@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} this code cannot be terminated by pressing Ctrl\PYGZhy{}C}
+\PYG{k+kn}{from} \PYG{n+nn}{time} \PYG{k+kn}{import} \PYG{n}{sleep}
+\PYG{n}{seconds} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+    \PYG{k}{try}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n}{seconds}\PYG{p}{)}
+	\PYG{n}{seconds} \PYG{o}{+=} \PYG{l+m+mi}{1}
+	\PYG{n}{sleep}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+    \PYG{k}{except} \PYG{n+ne}{KeyboardInterrupt}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Don\PYGZsq{}t do that!\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

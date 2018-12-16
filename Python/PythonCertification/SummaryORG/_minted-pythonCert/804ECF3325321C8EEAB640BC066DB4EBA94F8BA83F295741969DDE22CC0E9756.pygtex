@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{try}\PYG{p}{:}
+	\PYG{n}{i} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}hello!\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{except} \PYG{n+ne}{Exception} \PYG{k}{as} \PYG{n}{e}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n}{e}\PYG{p}{)}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n}{e}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}}\PYG{p}{())}
+\end{Verbatim}

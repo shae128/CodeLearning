@@ -1,0 +1,75 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} in this sectoin i\PYGZsq{}m going to examin scope for list}
+
+\PYG{n}{list1} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{]}
+\PYG{n}{list2} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{]}
+\PYG{n}{list3} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{]}
+\PYG{n}{list4} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{]}
+\PYG{n}{list5} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{]}
+
+
+\PYG{c+c1}{\PYGZsh{} this will test just modification inside the function}
+\PYG{k}{def} \PYG{n+nf}{test1}\PYG{p}{(}\PYG{n}{lst}\PYG{p}{):}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 1 lst\PYGZdq{}}\PYG{p}{,} \PYG{n}{lst}\PYG{p}{)}
+    \PYG{n}{lst} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{]}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Test 1 modified lst:  \PYGZsq{}}\PYG{p}{,} \PYG{n}{lst}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 1 list:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list1}\PYG{p}{)}
+
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}TEST 1\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{test1}\PYG{p}{(}\PYG{n}{list1}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside\PYGZdq{}}\PYG{p}{,} \PYG{n}{list1}\PYG{p}{)}
+
+
+\PYG{c+c1}{\PYGZsh{} now lets test list modification via methods inside the function}
+\PYG{k}{def} \PYG{n+nf}{test2}\PYG{p}{(}\PYG{n}{lst}\PYG{p}{):}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 2 lst\PYGZdq{}}\PYG{p}{,} \PYG{n}{lst}\PYG{p}{)}
+    \PYG{n}{lst}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 2 modified lst:  \PYGZdq{}}\PYG{p}{,} \PYG{n}{lst}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 2 list:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list2}\PYG{p}{)}
+
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}TEST 2\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside before function invocation:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list2}\PYG{p}{)}
+\PYG{n}{test2}\PYG{p}{(}\PYG{n}{list2}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list2}\PYG{p}{)}
+
+
+\PYG{c+c1}{\PYGZsh{} now lets test list modification via methods outside the function}
+\PYG{k}{def} \PYG{n+nf}{test3}\PYG{p}{(}\PYG{n}{lst}\PYG{p}{):}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 3 lst\PYGZdq{}}\PYG{p}{,} \PYG{n}{lst}\PYG{p}{)}
+    \PYG{n}{list3}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 3 lst after modifing list3 :  \PYGZdq{}}\PYG{p}{,} \PYG{n}{lst}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 3 list:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list3}\PYG{p}{)}
+
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}TEST 3\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside before function invocation:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list3}\PYG{p}{)}
+\PYG{n}{test3}\PYG{p}{(}\PYG{n}{list3}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list3}\PYG{p}{)}
+
+
+\PYG{c+c1}{\PYGZsh{} Test list modification without passing as argument via methods}
+\PYG{k}{def} \PYG{n+nf}{test4}\PYG{p}{():}
+    \PYG{n}{list4}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 4 list:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list4}\PYG{p}{)}
+
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}TEST 4\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside before function invocation:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list4}\PYG{p}{)}
+\PYG{n}{test4}\PYG{p}{()}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list4}\PYG{p}{)}
+
+
+
+\PYG{c+c1}{\PYGZsh{} Test list modification without passing as argument without methods}
+\PYG{k}{def} \PYG{n+nf}{test5}\PYG{p}{():}
+    \PYG{n}{list5} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{]}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Test 5 inside function list5 :\PYGZdq{}}\PYG{p}{,} \PYG{n}{list5}\PYG{p}{)}
+
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}TEST 5\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside before function invocation list5:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list5}\PYG{p}{)}
+\PYG{n}{test5}\PYG{p}{()}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}outside after invocation list5:\PYGZdq{}}\PYG{p}{,} \PYG{n}{list5}\PYG{p}{)}
+\end{Verbatim}

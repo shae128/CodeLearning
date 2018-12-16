@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Class}\PYG{p}{:}
+	\PYG{n}{Attr} \PYG{o}{=} \PYG{l+m+mi}{1}
+
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{p}{):}
+		\PYG{k}{if} \PYG{n}{val} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{2} \PYG{o}{!=} \PYG{l+m+mi}{0}\PYG{p}{:}
+			\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{1}
+		\PYG{k}{else}\PYG{p}{:}
+			\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b} \PYG{o}{=} \PYG{l+m+mi}{2}
+
+
+\PYG{n+nb}{object} \PYG{o}{=} \PYG{n}{Class}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{k}{if} \PYG{n+nb}{hasattr}\PYG{p}{(}\PYG{n+nb}{object}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{):}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{object}\PYG{o}{.}\PYG{n}{a}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{object}\PYG{o}{.}\PYG{n}{b}\PYG{p}{)}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{hasattr}\PYG{p}{(}\PYG{n}{Class}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Attr\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{hasattr}\PYG{p}{(}\PYG{n}{Class}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}pop\PYGZsq{}}\PYG{p}{))}
+\end{Verbatim}

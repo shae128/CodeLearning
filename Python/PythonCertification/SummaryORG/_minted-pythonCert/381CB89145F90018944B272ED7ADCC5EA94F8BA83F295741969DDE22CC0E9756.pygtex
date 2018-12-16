@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{One}\PYG{p}{:}
+	\PYG{k}{def} \PYG{n+nf}{doit}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}doit from One\PYGZdq{}}\PYG{p}{)}
+	\PYG{k}{def} \PYG{n+nf}{doanything}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{doit}\PYG{p}{()}
+
+
+\PYG{k}{class} \PYG{n+nc}{Two}\PYG{p}{(}\PYG{n}{One}\PYG{p}{):}
+	\PYG{k}{def} \PYG{n+nf}{doit}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}doit from Two\PYGZdq{}}\PYG{p}{)}
+
+
+\PYG{n}{one} \PYG{o}{=} \PYG{n}{One}\PYG{p}{()}
+\PYG{n}{two} \PYG{o}{=} \PYG{n}{Two}\PYG{p}{()}
+
+\PYG{n}{one}\PYG{o}{.}\PYG{n}{doanything}\PYG{p}{()}
+\PYG{n}{two}\PYG{o}{.}\PYG{n}{doanything}\PYG{p}{()}
+\end{Verbatim}

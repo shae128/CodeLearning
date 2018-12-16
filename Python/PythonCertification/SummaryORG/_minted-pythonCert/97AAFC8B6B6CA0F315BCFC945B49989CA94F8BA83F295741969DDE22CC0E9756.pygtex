@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Class}\PYG{p}{:}
+    \PYG{n}{Variable} \PYG{o}{=} \PYG{l+m+mi}{3}
+
+    \PYG{k}{def} \PYG{n+nf}{method}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Variable}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{var}\PYG{p}{)}
+
+
+\PYG{n}{obj} \PYG{o}{=} \PYG{n}{Class}\PYG{p}{()}
+\PYG{n}{obj}\PYG{o}{.}\PYG{n}{var} \PYG{o}{=} \PYG{l+m+mi}{4}
+\PYG{n}{obj}\PYG{o}{.}\PYG{n}{method}\PYG{p}{()}
+\end{Verbatim}

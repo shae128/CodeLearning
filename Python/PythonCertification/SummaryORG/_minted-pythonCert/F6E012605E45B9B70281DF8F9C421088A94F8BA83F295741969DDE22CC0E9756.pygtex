@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{n}{value} \PYG{o+ow}{in} \PYG{n}{dct}\PYG{o}{.}\PYG{n}{values}\PYG{p}{():}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{values}\PYG{p}{)}
+\end{Verbatim}

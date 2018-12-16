@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{platform} \PYG{k+kn}{import} \PYG{n}{python\PYGZus{}implementation}\PYG{p}{,}
+\PYG{n}{python\PYGZus{}version\PYGZus{}tuple}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{version}\PYG{p}{())}
+\end{Verbatim}

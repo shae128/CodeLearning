@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}[\PYGZsq{}}\PYG{o}{+}\PYG{l+s+s1}{\PYGZsq{} tau \PYGZsq{}}\PYG{o}{.}\PYG{n}{lstrip}\PYG{p}{()}\PYG{o}{+}\PYG{l+s+s1}{\PYGZsq{}]\PYGZsq{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}www.cisco.com\PYGZsq{}}\PYG{o}{.}\PYG{n}{lstrip}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}w.\PYGZsq{}}\PYG{p}{))}
+\end{Verbatim}

@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Level0}\PYG{p}{:}
+	\PYG{n}{Var} \PYG{o}{=} \PYG{l+m+mi}{100}
+
+	\PYG{k}{def} \PYG{n+nf}{fun}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{l+m+mi}{101}
+
+\PYG{k}{class} \PYG{n+nc}{Level1}\PYG{p}{(}\PYG{n}{Level0}\PYG{p}{):}
+	\PYG{n}{Var} \PYG{o}{=} \PYG{l+m+mi}{200}
+
+	\PYG{k}{def} \PYG{n+nf}{fun}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{l+m+mi}{201}
+
+\PYG{k}{class} \PYG{n+nc}{Level2}\PYG{p}{(}\PYG{n}{Level1}\PYG{p}{):}
+	\PYG{k}{pass}
+
+
+\PYG{n+nb}{object} \PYG{o}{=} \PYG{n}{Level2}\PYG{p}{()}
+\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{object}\PYG{o}{.}\PYG{n}{Var}\PYG{p}{,} \PYG{n+nb}{object}\PYG{o}{.}\PYG{n}{fun}\PYG{p}{())}
+\end{Verbatim}

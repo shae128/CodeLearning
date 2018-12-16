@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Class}\PYG{p}{:}
+
+    \PYG{k}{def} \PYG{n+nf}{visible}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Visible\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}\PYGZus{}hidden}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Hidden\PYGZdq{}}\PYG{p}{)}
+
+
+\PYG{n}{obj} \PYG{o}{=} \PYG{n}{Class}\PYG{p}{()}
+\PYG{n}{obj}\PYG{o}{.}\PYG{n}{visible}\PYG{p}{()}
+
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{n}{obj}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}hidden}\PYG{p}{()}
+\PYG{k}{except}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Failed\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{obj}\PYG{o}{.}\PYG{n}{\PYGZus{}Class\PYGZus{}\PYGZus{}hidden}\PYG{p}{()}
+\end{Verbatim}

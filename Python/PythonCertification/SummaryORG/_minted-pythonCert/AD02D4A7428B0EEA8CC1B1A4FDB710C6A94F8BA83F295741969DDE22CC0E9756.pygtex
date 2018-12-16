@@ -1,0 +1,36 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Fib}\PYG{p}{:}
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{nn}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}n} \PYG{o}{=} \PYG{n}{nn}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}i} \PYG{o}{=} \PYG{l+m+mi}{0}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}p1} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}p2} \PYG{o}{=} \PYG{l+m+mi}{1}
+
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}iter\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Fib iter\PYGZdq{}}\PYG{p}{)}
+		\PYG{k}{return} \PYG{n+nb+bp}{self}
+
+	\PYG{k}{def} \PYG{n+nf}{\PYGZus{}\PYGZus{}next\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}i} \PYG{o}{+=} \PYG{l+m+mi}{1}
+		\PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}i} \PYG{o}{\PYGZgt{}} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}n}\PYG{p}{:}
+			\PYG{k}{raise} \PYG{n+ne}{StopIteration}
+		\PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}i} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]:}
+			\PYG{k}{return} \PYG{l+m+mi}{1}
+		\PYG{n}{ret} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}p1} \PYG{o}{+} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}p2}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}p1}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}p2} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}p2}\PYG{p}{,} \PYG{n}{ret}
+		\PYG{k}{return} \PYG{n}{ret}
+
+
+\PYG{k}{class} \PYG{n+nc}{Class}\PYG{p}{:}
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{n}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}iter} \PYG{o}{=} \PYG{n}{Fib}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
+
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}iter\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Class iter\PYGZdq{}}\PYG{p}{)}
+		\PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}iter}
+
+
+\PYG{n+nb}{object} \PYG{o}{=} \PYG{n}{Class}\PYG{p}{(}\PYG{l+m+mi}{8}\PYG{p}{)}
+
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{object}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n}{i}\PYG{p}{,} \PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{} \PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{objectiveStack}\PYG{o}{\PYGZgt{}\PYGZgt{}}
+
+\PYG{n}{ttt} \PYG{o}{=} \PYG{n}{Stack}\PYG{p}{()}
+\PYG{n}{ttt}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{ttt}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{())}
+\end{Verbatim}

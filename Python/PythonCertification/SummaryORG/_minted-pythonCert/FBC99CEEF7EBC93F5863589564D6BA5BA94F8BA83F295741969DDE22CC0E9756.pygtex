@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{os} \PYG{k+kn}{import} \PYG{n}{strerror}
+\PYG{k}{try}\PYG{p}{:}
+	\PYG{n}{ccnt} \PYG{o}{=} \PYG{n}{lcnt} \PYG{o}{=} \PYG{l+m+mi}{0}
+	\PYG{n}{s} \PYG{o}{=} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}text.txt\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}rt\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{line} \PYG{o}{=} \PYG{n}{s}\PYG{o}{.}\PYG{n}{readline}\PYG{p}{()}
+	\PYG{k}{while} \PYG{n}{line} \PYG{o}{!=} \PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{:}
+		\PYG{n}{lcnt} \PYG{o}{+=} \PYG{l+m+mi}{1}
+		\PYG{k}{for} \PYG{n}{ch} \PYG{o+ow}{in} \PYG{n}{line}\PYG{p}{:}
+			\PYG{n}{ccnt} \PYG{o}{+=} \PYG{l+m+mi}{1}
+		\PYG{n}{line} \PYG{o}{=} \PYG{n}{s}\PYG{o}{.}\PYG{n}{readline}\PYG{p}{()}
+	\PYG{n}{s}\PYG{o}{.}\PYG{n}{close}\PYG{p}{()}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Characters in file:\PYGZdq{}}\PYG{p}{,} \PYG{n}{ccnt}\PYG{p}{)}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Lines in file:     \PYGZdq{}}\PYG{p}{,} \PYG{n}{lcnt}\PYG{p}{)}
+\PYG{k}{except} \PYG{n+ne}{IOError} \PYG{k}{as} \PYG{n}{e}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}I/O error occurred: \PYGZdq{}}\PYG{p}{,} \PYG{n}{strerr}\PYG{p}{(}\PYG{n}{e}\PYG{o}{.}\PYG{n}{errno}\PYG{p}{))}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{math} \PYG{k+kn}{import} \PYG{n}{tan}\PYG{p}{,}\PYG{n}{radians}
+\PYG{n}{angle} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Enter integral angle in degrees: \PYGZsq{}}\PYG{p}{))}
+\PYG{c+c1}{\PYGZsh{} we must be sure that angle != 90 + k*180}
+\PYG{k}{assert} \PYG{n}{angle} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{180} \PYG{o}{!=} \PYG{l+m+mi}{90}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{tan}\PYG{p}{(}\PYG{n}{radians}\PYG{p}{(}\PYG{n}{angle}\PYG{p}{)))}
+\end{Verbatim}

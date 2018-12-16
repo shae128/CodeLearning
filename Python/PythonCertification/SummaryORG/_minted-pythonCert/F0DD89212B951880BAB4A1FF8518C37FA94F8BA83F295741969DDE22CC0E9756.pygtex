@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{push}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{p}{):}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}sum} \PYG{o}{+=} \PYG{n}{val}
+    \PYG{n}{Stack}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{p}{)}
+\end{Verbatim}

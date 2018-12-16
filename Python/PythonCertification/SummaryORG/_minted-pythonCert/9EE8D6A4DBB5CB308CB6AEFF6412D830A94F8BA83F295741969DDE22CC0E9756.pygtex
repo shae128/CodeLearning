@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{a} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}
+\PYG{n}{b} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}
+
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{a} \PYG{o}{/} \PYG{n}{b}\PYG{p}{)}
+\PYG{k}{except}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}It cannot be done!\PYGZsq{}}\PYG{p}{)}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}THE END\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

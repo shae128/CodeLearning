@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{platform} \PYG{k+kn}{import} \PYG{n}{platform}
+\PYG{n}{platform}\PYG{p}{(}\PYG{n}{aliased}\PYG{o}{=}\PYG{n+nb+bp}{False}\PYG{p}{,} \PYG{n}{terse}\PYG{o}{=}\PYG{n+nb+bp}{False}\PYG{p}{)}
+\end{Verbatim}

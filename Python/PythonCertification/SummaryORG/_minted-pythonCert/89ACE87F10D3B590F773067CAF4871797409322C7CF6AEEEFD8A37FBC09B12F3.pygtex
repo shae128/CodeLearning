@@ -1,0 +1,31 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+class Stack:
+	def \PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}(self):
+		self.\PYGZus{}\PYGZus{}stk = []
+
+	def push(self, val):
+		self.\PYGZus{}\PYGZus{}stk.append(val)
+
+	def pop(self):
+		val = self.\PYGZus{}\PYGZus{}stk[\PYGZhy{}1]
+		del self.\PYGZus{}\PYGZus{}stk[\PYGZhy{}1]
+		return val
+
+
+stack = Stack()
+stack.push(3)
+stack.push(2)
+stack.push(1)
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{})
+stack1 = Stack()
+stack2 = Stack()
+stack1.push(3)
+stack2.push(stack1.pop())
+print(stack2.pop())
+ttt = Stack()
+ttt.push(5)
+print(ttt.pop())
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{name} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}123\PYGZdq{}}
+\PYG{k}{raise} \PYG{n+ne}{NameError}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Invalid name!\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

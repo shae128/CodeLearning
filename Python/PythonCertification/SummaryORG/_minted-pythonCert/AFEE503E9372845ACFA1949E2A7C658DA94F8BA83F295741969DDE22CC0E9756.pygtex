@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{sys} \PYG{k+kn}{import} \PYG{n}{path}
+\PYG{n}{path}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}./directoryName\PYGZdq{}}\PYG{p}{)}
+\PYG{k+kn}{import} \PYG{n+nn}{moduleName}
+\end{Verbatim}

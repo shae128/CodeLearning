@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{outer}\PYG{p}{(}\PYG{n}{par}\PYG{p}{):}
+	\PYG{n}{loc} \PYG{o}{=} \PYG{n}{par}
+	\PYG{k}{def} \PYG{n+nf}{inner}\PYG{p}{():}
+		\PYG{k}{return} \PYG{n}{loc}
+	\PYG{k}{return} \PYG{n}{inner}
+
+\PYG{n}{var} \PYG{o}{=} \PYG{l+m+mi}{1}
+\PYG{n}{fun} \PYG{o}{=} \PYG{n}{outer}\PYG{p}{(}\PYG{n}{var}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{fun}\PYG{p}{())}
+\end{Verbatim}

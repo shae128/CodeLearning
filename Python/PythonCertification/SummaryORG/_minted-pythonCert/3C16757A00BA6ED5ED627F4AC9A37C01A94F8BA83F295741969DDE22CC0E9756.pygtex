@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Vehicle}\PYG{p}{:}
+	\PYG{k}{pass}
+
+
+\PYG{k}{class} \PYG{n+nc}{LandVehicle}\PYG{p}{(}\PYG{n}{Vehicle}\PYG{p}{):}
+	\PYG{k}{pass}
+
+
+\PYG{k}{class} \PYG{n+nc}{TrackedVehicle}\PYG{p}{(}\PYG{n}{LandVehicle}\PYG{p}{):}
+	\PYG{k}{pass}
+
+
+\PYG{k}{for} \PYG{n}{cl1} \PYG{o+ow}{in} \PYG{p}{[}\PYG{n}{Vehicle}\PYG{p}{,} \PYG{n}{LandVehicle}\PYG{p}{,} \PYG{n}{TrackedVehicle}\PYG{p}{]:}
+	\PYG{k}{for} \PYG{n}{cl2} \PYG{o+ow}{in} \PYG{p}{[}\PYG{n}{Vehicle}\PYG{p}{,} \PYG{n}{LandVehicle}\PYG{p}{,} \PYG{n}{TrackedVehicle}\PYG{p}{]:}
+		\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{issubclass}\PYG{p}{(}\PYG{n}{cl1}\PYG{p}{,}\PYG{n}{cl2}\PYG{p}{),}\PYG{n}{end}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+se}{\PYGZbs{}t}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+	\PYG{k}{print}\PYG{p}{()}
+\end{Verbatim}

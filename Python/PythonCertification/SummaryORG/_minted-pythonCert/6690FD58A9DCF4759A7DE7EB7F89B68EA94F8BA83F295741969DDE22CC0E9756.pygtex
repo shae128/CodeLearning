@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}
+    \PYG{n}{y} \PYG{o}{=} \PYG{l+m+mi}{1} \PYG{o}{/} \PYG{n}{x}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{y}\PYG{p}{)}
+\PYG{k}{except} \PYG{n+ne}{ZeroDivisionError}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Cannot divide by zero – sorry!\PYGZsq{}}\PYG{p}{)}
+\PYG{k}{except} \PYG{n+ne}{ValueError}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}You have to enter an integer value!\PYGZsq{}}\PYG{p}{)}
+\PYG{k}{except}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Oh, dear!\PYGZsq{}}\PYG{p}{)}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}THE END\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

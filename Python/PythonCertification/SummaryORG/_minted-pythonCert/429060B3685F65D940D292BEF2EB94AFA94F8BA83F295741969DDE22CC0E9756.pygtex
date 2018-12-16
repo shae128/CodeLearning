@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{os} \PYG{k+kn}{import} \PYG{n}{strerror}
+\PYG{k}{try}\PYG{p}{:}
+	\PYG{n}{fo} \PYG{o}{=} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}newtext.txt\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}wt\PYGZsq{}}\PYG{p}{)}
+	\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{):}
+		\PYG{n}{s} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}\PYGZdq{}} \PYG{o}{+} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{} \PYGZdq{}}
+		\PYG{k}{for} \PYG{n}{ch} \PYG{o+ow}{in} \PYG{n}{s}\PYG{p}{:}
+			\PYG{n}{fo}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{ch}\PYG{p}{)}
+	\PYG{n}{fo}\PYG{o}{.}\PYG{n}{close}\PYG{p}{()}
+\PYG{k}{except} \PYG{n+ne}{IOError} \PYG{k}{as} \PYG{n}{e}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}I/O error occurred: \PYGZdq{}}\PYG{p}{,} \PYG{n}{strerr}\PYG{p}{(}\PYG{n}{e}\PYG{o}{.}\PYG{n}{errno}\PYG{p}{))}
+
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{n}{stream} \PYG{o}{=} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}newtext.txt\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}rt\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{stream}\PYG{o}{.}\PYG{n}{read}\PYG{p}{())}
+\PYG{k}{except} \PYG{n+ne}{Exception} \PYG{k}{as} \PYG{n}{e}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}I/O error eccurred: \PYGZdq{}}\PYG{p}{,} \PYG{n}{strerr}\PYG{p}{(}\PYG{n}{e}\PYG{o}{.}\PYG{n}{errno}\PYG{p}{))}
+\end{Verbatim}

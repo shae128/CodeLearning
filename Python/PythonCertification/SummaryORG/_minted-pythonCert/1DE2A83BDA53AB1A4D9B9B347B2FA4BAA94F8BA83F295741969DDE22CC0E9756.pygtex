@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{},\PYGZsq{}}\PYG{o}{.}\PYG{n}{join}\PYG{p}{([}\PYG{l+s+s1}{\PYGZsq{}omicron\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}pi\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}rho\PYGZsq{}}\PYG{p}{]))}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{o}{.}\PYG{n}{join}\PYG{p}{([}\PYG{l+s+s1}{\PYGZsq{}omicron\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}pi\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}rho\PYGZsq{}}\PYG{p}{]))}
+\end{Verbatim}

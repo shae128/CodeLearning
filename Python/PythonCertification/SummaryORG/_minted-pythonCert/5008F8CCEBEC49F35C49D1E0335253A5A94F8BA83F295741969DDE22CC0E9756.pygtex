@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} if it finds the string, it will return the first index where the string appears}
+\PYG{n}{t} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}theta\PYGZsq{}}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}eta\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ta\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}the\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}tlhe\PYGZsq{}}\PYG{p}{))}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{MultiLine} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}\PYGZsq{}Line \PYGZsh{}1}
+\PYG{l+s+s1}{Line \PYGZsh{}2\PYGZsq{}\PYGZsq{}\PYGZsq{}}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}The string length is: \PYGZsq{}}\PYG{p}{,} \PYG{n}{end}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{MultiLine}\PYG{p}{))}
+\end{Verbatim}

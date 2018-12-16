@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} this code causes the MemoryError exception}
+\PYG{c+c1}{\PYGZsh{} warning: executing this code may be crucial for your OS}
+\PYG{c+c1}{\PYGZsh{} don\PYGZsq{}t run it in production environments!}
+
+\PYG{n}{string} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}x\PYGZsq{}}
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+	\PYG{n}{string} \PYG{o}{=} \PYG{n}{string} \PYG{o}{+} \PYG{n}{string}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{string}\PYG{p}{))}
+\PYG{k}{except} \PYG{n+ne}{MemoryError}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}This is not funny!\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

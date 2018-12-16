@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} how to abuse the dictionary and how to deal with it}
+\PYG{n+nb}{dict} \PYG{o}{=} \PYG{p}{\PYGZob{}} \PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}} \PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}} \PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}c\PYGZsq{}} \PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}d\PYGZsq{}} \PYG{p}{\PYGZcb{}}
+\PYG{n}{ch} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{k}{while} \PYG{n+nb+bp}{True}\PYG{p}{:}
+	\PYG{n}{ch} \PYG{o}{=} \PYG{n+nb}{dict}\PYG{p}{[}\PYG{n}{ch}\PYG{p}{]}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n}{ch}\PYG{p}{)}
+\PYG{k}{except} \PYG{n+ne}{KeyError}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}No such key:\PYGZsq{}}\PYG{p}{,} \PYG{n}{ch}\PYG{p}{)}
+\end{Verbatim}

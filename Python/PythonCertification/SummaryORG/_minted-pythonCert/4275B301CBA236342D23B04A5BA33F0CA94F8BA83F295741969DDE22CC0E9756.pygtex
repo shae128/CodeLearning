@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Super1}\PYG{p}{:}
+	\PYG{k}{pass}
+
+
+\PYG{k}{class} \PYG{n+nc}{Super2}\PYG{p}{:}
+	\PYG{k}{pass}
+
+
+\PYG{k}{class} \PYG{n+nc}{Sub}\PYG{p}{(}\PYG{n}{Super1}\PYG{p}{,} \PYG{n}{Super2}\PYG{p}{):}
+	\PYG{k}{pass}
+
+
+\PYG{k}{def} \PYG{n+nf}{printbases}\PYG{p}{(}\PYG{n+nb+bp}{cls}\PYG{p}{):}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}( \PYGZsq{}}\PYG{p}{,} \PYG{n}{end}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{)}
+	\PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{n+nb+bp}{cls}\PYG{o}{.}\PYG{n+nv+vm}{\PYGZus{}\PYGZus{}bases\PYGZus{}\PYGZus{}}\PYG{p}{:}
+		\PYG{k}{print}\PYG{p}{(}\PYG{n}{x}\PYG{o}{.}\PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}}\PYG{p}{,} \PYG{n}{end}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{} \PYGZsq{}}\PYG{p}{)}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{})\PYGZsq{}}\PYG{p}{)}
+
+
+\PYG{n}{printbases}\PYG{p}{(}\PYG{n}{Super1}\PYG{p}{)}
+\PYG{n}{printbases}\PYG{p}{(}\PYG{n}{Super2}\PYG{p}{)}
+\PYG{n}{printbases}\PYG{p}{(}\PYG{n}{Sub}\PYG{p}{)}
+\end{Verbatim}

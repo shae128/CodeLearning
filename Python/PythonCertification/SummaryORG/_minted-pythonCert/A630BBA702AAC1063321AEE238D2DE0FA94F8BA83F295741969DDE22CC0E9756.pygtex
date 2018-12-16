@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Alpha\PYGZsq{}}\PYG{o}{.}\PYG{n}{capitalize}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ALPHA\PYGZsq{}}\PYG{o}{.}\PYG{n}{capitalize}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{} Alpha\PYGZsq{}}\PYG{o}{.}\PYG{n}{capitalize}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}123\PYGZsq{}}\PYG{o}{.}\PYG{n}{capitalize}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}άλφα\PYGZdq{}}\PYG{o}{.}\PYG{n}{capitalize}\PYG{p}{())}
+\end{Verbatim}

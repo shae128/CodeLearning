@@ -1,0 +1,3 @@
+[submodule "orgLatex"]
+	path = orgLatex
+	url = https://github.com/shae128/orgLatex

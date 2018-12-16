@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{math}
+\PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}
+\PYG{k}{assert} \PYG{n}{x}\PYG{o}{\PYGZgt{}=}\PYG{l+m+mf}{0.0}
+\PYG{n}{x} \PYG{o}{=} \PYG{n}{math}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\end{Verbatim}

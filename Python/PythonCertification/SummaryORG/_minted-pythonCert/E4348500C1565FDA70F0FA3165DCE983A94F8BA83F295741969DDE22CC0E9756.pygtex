@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} one of this imports will fail \PYGZhy{} which one?}
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{k+kn}{import} \PYG{n+nn}{math}
+    \PYG{k+kn}{import} \PYG{n+nn}{time}
+    \PYG{k+kn}{import} \PYG{n+nn}{abracadabra}
+\PYG{k}{except}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}One of your imports has failed. \PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

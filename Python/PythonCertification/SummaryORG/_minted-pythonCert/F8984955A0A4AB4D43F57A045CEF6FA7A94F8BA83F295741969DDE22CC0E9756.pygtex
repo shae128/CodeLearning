@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{sys}
+\PYG{n}{sys}\PYG{o}{.}\PYG{n}{stderr}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Error message\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

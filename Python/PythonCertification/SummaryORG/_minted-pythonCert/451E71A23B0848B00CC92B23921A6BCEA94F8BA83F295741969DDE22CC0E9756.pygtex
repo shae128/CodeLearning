@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{makeclosure}\PYG{p}{(}\PYG{n}{par}\PYG{p}{):}
+	\PYG{n}{loc} \PYG{o}{=} \PYG{n}{par}
+	\PYG{k}{def} \PYG{n+nf}{power}\PYG{p}{(}\PYG{n}{p}\PYG{p}{):}
+		\PYG{k}{return} \PYG{n}{p} \PYG{o}{**} \PYG{n}{loc}
+	\PYG{k}{return} \PYG{n}{power}
+
+\PYG{n}{fsqr} \PYG{o}{=} \PYG{n}{makeclosure}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+\PYG{n}{fcub} \PYG{o}{=} \PYG{n}{makeclosure}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{):}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n}{i}\PYG{p}{,}\PYG{n}{fsqr}\PYG{p}{(}\PYG{n}{i}\PYG{p}{),}\PYG{n}{fcub}\PYG{p}{(}\PYG{n}{i}\PYG{p}{))}
+\end{Verbatim}

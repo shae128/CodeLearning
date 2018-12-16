@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{temp} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{10}
+\PYG{k}{assert} \PYG{p}{(}\PYG{n}{temp} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{0}\PYG{p}{),} \PYG{l+s+s2}{\PYGZdq{}Colder than absolute zero!\PYGZdq{}}
+\end{Verbatim}

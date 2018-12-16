@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Λάμβδα\PYGZsq{}}\PYG{o}{.}\PYG{n}{isalnum}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}is all\PYGZsq{}}\PYG{o}{.}\PYG{n}{isalnum}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}10E4\PYGZsq{}}\PYG{o}{.}\PYG{n}{isalnum}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{o}{.}\PYG{n}{isalnum}\PYG{p}{())}
+\end{Verbatim}

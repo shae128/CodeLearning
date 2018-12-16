@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} the code shows an extravagant way of leaving the loop}
+\PYG{n+nb}{list} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{]}
+\PYG{n}{ix} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{doit} \PYG{o}{=} \PYG{n+nb+bp}{True}
+\PYG{k}{while} \PYG{n}{doit}\PYG{p}{:}
+    \PYG{k}{try}\PYG{p}{:}
+	\PYG{k}{print}\PYG{p}{(}\PYG{n+nb}{list}\PYG{p}{[}\PYG{n}{ix}\PYG{p}{])}
+	\PYG{n}{ix} \PYG{o}{+=} \PYG{l+m+mi}{1}
+    \PYG{k}{except} \PYG{n+ne}{IndexError}\PYG{p}{:}
+	\PYG{n}{doit} \PYG{o}{=} \PYG{n+nb+bp}{False}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Done\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}

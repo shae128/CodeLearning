@@ -1,0 +1,30 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} if it finds the string, it will return the first index where the string appears}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{t} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}theta\PYGZsq{}}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}eta\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}ta\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}the\PYGZsq{}}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{t}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}tlhe\PYGZsq{}}\PYG{p}{))}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}kappa\PYGZsq{}}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}kappa\PYGZsq{}}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}kappa\PYGZsq{}}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}a\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{8}\PYG{p}{))}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{txt} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}\PYGZsq{} A variation of the ordinary lorem ipsum text has been used in}
+\PYG{l+s+s1}{typesetting since the 1960s or earlier, when it was popularized by}
+\PYG{l+s+s1}{advertisements for Letraset transfer sheets. It was introduced to the}
+\PYG{l+s+s1}{Information Age in the mid\PYGZhy{}1980s by Aldus Corporation, which employed}
+\PYG{l+s+s1}{it in graphics and word\PYGZhy{}processing templates for its desktop}
+\PYG{l+s+s1}{publishing program PageMaker.\PYGZsq{}\PYGZsq{}\PYGZsq{}}
+
+\PYG{n}{fnd} \PYG{o}{=} \PYG{n}{txt}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}the\PYGZsq{}}\PYG{p}{)}
+\PYG{k}{while} \PYG{n}{fnd} \PYG{o}{!=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{:}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{fnd}\PYG{p}{,} \PYG{n}{end}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZsq{} \PYGZdq{}}\PYG{p}{)}
+    \PYG{n}{fnd} \PYG{o}{=} \PYG{n}{txt}\PYG{o}{.}\PYG{n}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}the\PYGZsq{}}\PYG{p}{,} \PYG{n}{fnd}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{text} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}fgakjgkasdjgaga\PYGZdq{}}
+\PYG{n}{text} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}A\PYGZdq{}} \PYG{o}{+} \PYG{n}{text}
+\PYG{n}{text} \PYG{o}{=} \PYG{n}{text} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}Z\PYGZdq{}}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{text}\PYG{p}{)}
+\end{Verbatim}

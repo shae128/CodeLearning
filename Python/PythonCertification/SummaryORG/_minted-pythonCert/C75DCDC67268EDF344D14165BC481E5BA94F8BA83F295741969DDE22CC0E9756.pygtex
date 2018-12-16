@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{PizzaError}\PYG{p}{(}\PYG{n+ne}{Exception}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{pizza}\PYG{p}{,} \PYG{n}{message}\PYG{p}{):}
+	\PYG{n+ne}{Exception}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{message}\PYG{p}{)}
+	\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pizza} \PYG{o}{=} \PYG{n}{pizza}
+
+\PYG{k}{class} \PYG{n+nc}{TooMuchCheeseError}\PYG{p}{(}\PYG{n}{PizzaError}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{pizza}\PYG{p}{,} \PYG{n}{cheese}\PYG{p}{,} \PYG{n}{message}\PYG{p}{):}
+	\PYG{n}{PizzaError}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{pizza}\PYG{p}{,}\PYG{n}{message}\PYG{p}{)}
+	\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cheese} \PYG{o}{=} \PYG{n}{cheese}
+
+\PYG{k}{def} \PYG{n+nf}{makePizza}\PYG{p}{(}\PYG{n}{pizza}\PYG{p}{,}\PYG{n}{cheese}\PYG{p}{):}
+	\PYG{k}{if} \PYG{n}{pizza} \PYG{o+ow}{not} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}margherita\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}capricciosa\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}calzone\PYGZsq{}}\PYG{p}{]:}
+		\PYG{k}{raise} \PYG{n}{PizzaError}\PYG{p}{(}\PYG{n}{pizza}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}no such pizza in menu\PYGZdq{}}\PYG{p}{)}
+	\PYG{k}{if} \PYG{n}{cheese} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{100}\PYG{p}{:}
+		\PYG{k}{raise} \PYG{n}{TooMuchCheeseError}\PYG{p}{(}\PYG{n}{pizza}\PYG{p}{,} \PYG{n}{cheese}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}too much cheese\PYGZdq{}}\PYG{p}{)}
+	\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Pizza ready!\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{for} \PYG{p}{(}\PYG{n}{pz}\PYG{p}{,}\PYG{n}{ch}\PYG{p}{)} \PYG{o+ow}{in} \PYG{p}{[(}\PYG{l+s+s1}{\PYGZsq{}calzone\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}margherita\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{110}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}mafia\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{20}\PYG{p}{)]:}
+	\PYG{k}{try}\PYG{p}{:}
+		\PYG{n}{makePizza}\PYG{p}{(}\PYG{n}{pz}\PYG{p}{,}\PYG{n}{ch}\PYG{p}{)}
+	\PYG{k}{except} \PYG{n}{TooMuchCheeseError} \PYG{k}{as} \PYG{n}{tmce}\PYG{p}{:}
+		\PYG{k}{print}\PYG{p}{(}\PYG{n}{tmce}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}:\PYGZsq{}}\PYG{p}{,} \PYG{n}{tmce}\PYG{o}{.}\PYG{n}{cheese}\PYG{p}{)}
+	\PYG{k}{except} \PYG{n}{PizzaError} \PYG{k}{as} \PYG{n}{pe}\PYG{p}{:}
+		\PYG{k}{print}\PYG{p}{(}\PYG{n}{pe}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}:\PYGZsq{}}\PYG{p}{,} \PYG{n}{pe}\PYG{o}{.}\PYG{n}{pizza}\PYG{p}{)}
+\end{Verbatim}

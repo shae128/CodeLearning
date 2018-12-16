@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{MyClass}\PYG{p}{:}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{Name}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}there\PYGZdq{}}\PYG{p}{):}
+	\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Greeting} \PYG{o}{=} \PYG{n}{Name}
+
+    \PYG{k}{def} \PYG{n+nf}{SayHello}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+	    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Hello \PYGZob{}0\PYGZcb{}\PYGZdq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{Greeting}\PYG{p}{))}
+
+
+\PYG{n}{myInstance} \PYG{o}{=} \PYG{n}{MyClass}\PYG{p}{()}
+\PYG{n}{myInstance}\PYG{o}{.}\PYG{n}{SayHello}\PYG{p}{()}
+
+\PYG{n}{shaeInstance} \PYG{o}{=} \PYG{n}{MyClass}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}SHAE\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{shaeInstance}\PYG{o}{.}\PYG{n}{SayHello}\PYG{p}{()}
+\end{Verbatim}

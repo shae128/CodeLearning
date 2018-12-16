@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{OurClass}\PYG{p}{:}
+    \PYG{k}{pass}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}testest\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

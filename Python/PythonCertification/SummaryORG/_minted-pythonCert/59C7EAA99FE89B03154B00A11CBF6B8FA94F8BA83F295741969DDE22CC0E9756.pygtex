@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{random} \PYG{k+kn}{import} \PYG{n}{sample}
+\PYG{n}{lst} \PYG{o}{=} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{))}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{sample}\PYG{p}{(}\PYG{n}{lst}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{))}
+\end{Verbatim}

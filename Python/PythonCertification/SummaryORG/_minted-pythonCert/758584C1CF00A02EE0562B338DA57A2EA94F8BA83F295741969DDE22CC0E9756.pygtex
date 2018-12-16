@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{try}\PYG{p}{:}
+    \PYG{o}{.}
+    \PYG{o}{.}
+\PYG{k}{except} \PYG{n}{exc1}\PYG{p}{:}
+    \PYG{o}{.}
+    \PYG{o}{.}
+\PYG{k}{except} \PYG{n}{exc2}\PYG{p}{:}
+    \PYG{o}{.}
+    \PYG{o}{.}
+\PYG{k}{except}\PYG{p}{:}
+    \PYG{o}{.}
+    \PYG{o}{.}
+\end{Verbatim}

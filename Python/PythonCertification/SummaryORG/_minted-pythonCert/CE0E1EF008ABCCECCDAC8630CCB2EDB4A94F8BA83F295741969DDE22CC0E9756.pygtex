@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{ThisIsClass}\PYG{p}{:}
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{val} \PYG{o}{=} \PYG{n}{val}
+
+
+\PYG{n}{ob1} \PYG{o}{=} \PYG{n}{ThisIsClass}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{)}
+\PYG{n}{ob2} \PYG{o}{=} \PYG{n}{ThisIsClass}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+\PYG{n}{ob3} \PYG{o}{=} \PYG{n}{ob1}
+\PYG{n}{ob3}\PYG{o}{.}\PYG{n}{val} \PYG{o}{+=} \PYG{l+m+mi}{1}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{ob1} \PYG{o+ow}{is} \PYG{n}{ob2}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{ob2} \PYG{o+ow}{is} \PYG{n}{ob3}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{ob3} \PYG{o+ow}{is} \PYG{n}{ob1}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{ob1}\PYG{o}{.}\PYG{n}{val}\PYG{p}{,} \PYG{n}{ob2}\PYG{o}{.}\PYG{n}{val}\PYG{p}{,} \PYG{n}{ob3}\PYG{o}{.}\PYG{n}{val}\PYG{p}{)}
+
+\PYG{n}{str1} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Mary had a little \PYGZdq{}}
+\PYG{n}{str2} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Mary had a little lamb\PYGZdq{}}
+\PYG{n}{str1} \PYG{o}{+=} \PYG{l+s+s2}{\PYGZdq{}lamb\PYGZdq{}}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{str1} \PYG{o}{==} \PYG{n}{str2}\PYG{p}{,} \PYG{n}{str1} \PYG{o+ow}{is} \PYG{n}{str2}\PYG{p}{)}
+\end{Verbatim}

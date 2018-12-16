@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} This is noweb syntax to impart class on org\PYGZhy{}mode}
+\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{objectiveStack}\PYG{o}{\PYGZgt{}\PYGZgt{}}
+
+\PYG{k}{class} \PYG{n+nc}{AddingStack}\PYG{p}{(}\PYG{n}{Stack}\PYG{p}{):}
+        \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+                \PYG{n}{Stack}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}sum} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+        \PYG{k}{def} \PYG{n+nf}{getSum}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+                \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}sum}
+
+        \PYG{k}{def} \PYG{n+nf}{push}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{val}\PYG{p}{):}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}sum} \PYG{o}{+=} \PYG{n}{val}
+                \PYG{n}{Stack}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{val}\PYG{p}{)}
+
+        \PYG{k}{def} \PYG{n+nf}{pop}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+                \PYG{n}{val} \PYG{o}{=} \PYG{n}{Stack}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}\PYGZus{}sum} \PYG{o}{\PYGZhy{}=} \PYG{n}{val}
+                \PYG{k}{return} \PYG{n}{val}
+
+\PYG{n}{stack} \PYG{o}{=} \PYG{n}{AddingStack}\PYG{p}{()}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{):}
+        \PYG{n}{stack}\PYG{o}{.}\PYG{n}{push}\PYG{p}{(}\PYG{n}{i}\PYG{p}{)}
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{stack}\PYG{o}{.}\PYG{n}{getSum}\PYG{p}{())}
+\PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{):}
+        \PYG{k}{print}\PYG{p}{(}\PYG{n}{stack}\PYG{o}{.}\PYG{n}{pop}\PYG{p}{())}
+\end{Verbatim}
