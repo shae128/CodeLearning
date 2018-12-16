@@ -1,5 +1,4 @@
 #+TITLE: Python Cert Prep
-#+AUTHOR: shae128
 
  #+SETUPFILE: ../../../orgLatex/orgLatexConfig.org 
 
