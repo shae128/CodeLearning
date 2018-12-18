@@ -555,8 +555,58 @@ name[newKey] = newValue
 *** del
 del name[key]
 
+** set
+*Set* in Python is a data structure equivalent to sets in
+mathematics. It may consist of various elements; *the order of elements*
+*in a set is undefined.* You can add and delete elements of a set, you
+can iterate the elements of the set, you can perform standard
+operations on sets (union, intersection, difference). Besides that,
+_you can check if an element belongs to a set_. Unlike arrays, where the
+elements are stored as ordered list, the order of elements in a set is
+undefined (moreover, the set elements are usually not stored in order
+of appearance in the set; this allows checking if an element belongs
+to a set faster than just going through all the elements of the
+set). _Any immutable data type can be an element of a set_: a number, a
+string, a tuple. Mutable (changeable) data types cannot be elements of
+the set. In particular, list cannot be an element of a set (but tuple
+can), and another set cannot be an element of a set. The requirement
+of immutability follows from the way how do computers represent sets
+in memory.
+
+In abstract A set is an unordered collection of items. *Every element*
+*is unique* (no duplicates) and must be _immutable_ (which cannot be
+changed). However, the *set itself is mutable*. We can add or remove
+items from it.
+
+#+BEGIN_SRC python -n :results output pp replace :exports both
+  # set of integers
+  my_set = {1, 2, 3}
+  print(my_set)
+
+  # set of mixed datatypes
+  my_set = {1.0, "Hello", (1, 2, 3)}
+  print(my_set)
+#+END_SRC
+
+#+RESULTS:
+: {1, 2, 3}
+: {1.0, 'Hello', (1, 2, 3)}
+
+#+BEGIN_SRC python -n :results output pp replace :exports both
+  my_set = set([1,2,3,2])
+  print(my_set)
+
+  my_set1 = set("Hello")
+  print(my_set1)
+#+END_SRC
+
+#+RESULTS:
+: {1, 2, 3}
+: {'H', 'l', 'o', 'e'}
 
 #+LATEX: \newpage
+
+
 ** Table of priorities
 
 #+CAPTION: Priority Table
