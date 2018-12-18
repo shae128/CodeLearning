@@ -510,7 +510,7 @@ name = value, value, value
  The dictionary is another Python data structure. It’s not a sequence
  type (but can be easily adapted to sequence processing) and it is
  mutable.
-- each key must be unique – it’s not possible to have more than one
+- *each key must be unique* – it’s not possible to have more than one
   key of the same value;
 - a key may be data of any type: it may be a number (integer or
   float), or even a string;
@@ -605,7 +605,6 @@ items from it.
 : {'H', 'l', 'o', 'e'}
 
 #+LATEX: \newpage
-
 
 ** Table of priorities
 
