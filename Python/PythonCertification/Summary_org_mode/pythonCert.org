@@ -3566,12 +3566,14 @@ that can be used to perform such a task.  The method is named
 transferred to an open file (don’t forget – the open mode should
 reflect the way in which the data is transferred – writing a file
 opened in read mode won’t succeed).  No newline character is added to
-the ~write()~’s argument, so you have to add it yourself if you want
+the ~write()~ ’s argument, so you have to add it yourself if you want
 the file to be filled with a number of lines. We’ve decided to write
 the string’s contents character by character (this is done by the
 inner for loop) but you’re not obliged to do it in this way. We just
 wanted to show you that ~write()~ is able to operate on single
 characters.
+
++ Note that ~write()~ arguments *has to be string*
 
 #+BEGIN_SRC python -n :results output pp replace :exports both
   from os import strerror
@@ -3609,7 +3611,29 @@ normal program output, it may look like this:
  #+END_SRC
 
 
- #+LATEX: \newpage
+** ~with~ statement
+Python’s ~with~ statement was first introduced five years ago, in Python
+2.5. It’s handy when you have two related operations which you’d like
+to execute as a pair, with a block of code in between. The classic
+example is opening a file, manipulating the file, then closing it:
+
+#+BEGIN_SRC python -n
+  with open('output.txt', 'w') as f:
+      f.write('Hi there!')
+#+END_SRC
+
+The above ~with~ statement will automatically close the file after the
+nested block of code. (Continue reading to see exactly how the close
+occurs.) The advantage of using a ~with~ statement is that it is
+guaranteed to close the file no matter how the nested block exits. If
+an exception occurs before the end of the block, it will close the
+file before the exception is caught by an outer exception handler. If
+the nested block were to contain a ~return~ statement, or a ~continue~
+or ~break~ statement, the with statement would automatically close the
+file in those cases, too.
+
+#+LATEX: \newpage
+
 
 ** Amorphous data
 Amorphous data is data which have no specific shape or form – they are
