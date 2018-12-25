@@ -1,4 +1,4 @@
-% Created 2018-12-19 Wed 17:27
+% Created 2018-12-25 Tue 11:15
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -51,7 +51,7 @@ frametitleaboveskip=-\ht\strutbox,
 \newpage
 
 \section{Introduction}
-\label{sec:org64e828b}
+\label{sec:org3de7ea2}
 \begin{itemize}
 \item A complete set of known commands is called an -instruction list-,
 sometimes abbreviated to \textbf{IL}.
@@ -67,9 +67,9 @@ executed successfully before the interpreter finds an error.
 
 \newpage
 \section{Basics}
-\label{sec:orgc2f6bc0}
+\label{sec:orgd267769}
 \subsection{Notes}
-\label{sec:org0aa5377}
+\label{sec:org790b5f8}
 
 \begin{itemize}
 \item Python requires that there cannot be more than one instruction in a line.
@@ -91,20 +91,20 @@ physical devices;
 \end{itemize}
 
 \subsection{Function arguments}
-\label{sec:org6e154cb}
+\label{sec:org6b24c4b}
 Python functions may accept any number of arguments, as many as
 necessary to perform their tasks, any number includes zero.
 \subsection{Function invocation}
-\label{sec:orgd6c6172}
+\label{sec:orgf8ae05b}
 The function name along with the parentheses and \textbf{argument(s)}, forms
 the function invocation.
 \subsection{Positional way}
-\label{sec:orgd5518b2}
+\label{sec:org8705ff1}
 this name comes from the fact that the meaning of the argument is
 dictated by its position, the second argument will be outputted after
 the first, not the other way round.
 \subsection{Keyword arguments}
-\label{sec:org18d3322}
+\label{sec:orgb15abbf}
 The name stems from the fact that the meaning of these arguments is
 taken not from its location (position) but from the special word
 (keyword) used to identify them.
@@ -119,45 +119,45 @@ argument} (this is very important)
 \end{itemize}
 \end{itemize}
 \subsection{Print keyword arguments}
-\label{sec:org48d46ab}
+\label{sec:orgb699bd0}
 \begin{itemize}
 \item end
 \item sep
 \end{itemize}
 \subsection{Literal}
-\label{sec:orgaa95b38}
+\label{sec:orgb99c888}
 A literal is data whose values are determined by the literal itself.
 \subsection{Octal Representation}
-\label{sec:org21505f7}
+\label{sec:org7be291a}
 If an integer number is preceded by an 0O or 0o prefix (zero-o), it
 will be treated as an octal value.
 \subsection{Hexadecimal Representation}
-\label{sec:org233d4e1}
+\label{sec:org98ecc4e}
 Such numbers should be preceded by the prefix 0x or 0X (zero-x).
 \subsection{Scientific Notation}
-\label{sec:org06fb474}
+\label{sec:org630d079}
 \begin{itemize}
 \item 3E8 ( 3 per 10 power 8 )
 \item 6E-38 ( 6 per 10 power -38 )
 \item 2e-10 ( 0.0000000002 )
 \end{itemize}
 \subsection{Operation}
-\label{sec:orgf101fe1}
+\label{sec:orgec3ea8d}
 An operator is a symbol of the programming language, which is able to
 operate on the values.
 \subsection{Expressions}
-\label{sec:org7c2571a}
+\label{sec:orgc91bc59}
 Data and operators when connected together form expressions.
 \subsection{Power}
-\label{sec:orgf024136}
+\label{sec:org997862b}
 A ** (double asterisk) sign is an exponentiation (power) operator.
 \subsection{Overloading}
-\label{sec:org8659265}
+\label{sec:orgf304a3b}
 The ability to use the same operator against completely different
 kinds of data (like numbers vs. strings) is called overloading (as
 such an operator is overloaded with different duties).
 \subsection{integer divisional operator}
-\label{sec:org626a621}
+\label{sec:orga950ccc}
 A // (double slash) sign is an integer divisional operator. It differs
 from the standard / operator in two details:
 
@@ -183,11 +183,11 @@ integer}
 \end{itemize}
 
 \subsection{hierarchy of priorities}
-\label{sec:org139c9e7}
+\label{sec:org00eeb53}
 The phenomenon that causes some operators to act before others is
 known as the hierarchy of priorities.
 \subsection{Variable's naming}
-\label{sec:orga148fdb}
+\label{sec:orgc4cc7f5}
 \begin{itemize}
 \item the name of the variable must be composed of upper-case or
 lower-case letters, digits, and the character \_ (underscore)
@@ -199,19 +199,19 @@ lower-case letters, digits, and the character \_ (underscore)
 characters specific to languages that use other alphabets.
 \end{itemize}
 \subsection{How python treats comments}
-\label{sec:org96d88c4}
+\label{sec:org33acd50}
 Whenever Python encounters a comment in your program, the comment is
 completely transparent to it – from Python’s point of view, this is
 only one space
 \subsection{int() and float fails}
-\label{sec:orgc02c6fc}
+\label{sec:org532b74d}
 \begin{itemize}
 \item If int() or float() functions fail to convert the string to integer,
 the whole program will fail too
 \item int() function \textbf{does not} round the number
 \end{itemize}
 \subsection{Plus sing}
-\label{sec:org1b8e93c}
+\label{sec:org9a67bdc}
 \begin{itemize}
 \item It can be used more than a time in an expression and in such a context
 \end{itemize}
@@ -220,16 +220,16 @@ it behaves according to left-sided binding.
 \item It is a binary operator with left-sided binding
 \end{itemize}
 \subsection{Cascade}
-\label{sec:org2c20517}
+\label{sec:orgb067674}
 The way to assemble subsequent if-elif-else statements is sometimes
 called a \textbf{cascade}.
 \subsection{pseudocode}
-\label{sec:org418516b}
+\label{sec:org05f8dc4}
 we’ll use a kind of notation which is not an actual programming
 language (it can be neither compiled nor executed), but it is
 formalized, concise and readable.
 \subsection{Equivalent conditions:}
-\label{sec:org6921ea7}
+\label{sec:org2858411}
 \begin{enumerate}
 \item if n \% 2 == 1  \emph{is equal to} if n \% 2
 \item while n \% 2 != 0 \emph{is equal to} while n \% 2
@@ -243,17 +243,17 @@ value: zero (when all the bits are reset) means False; not zero
 \end{itemize}
 \end{enumerate}
 \subsection{Loop else branch}
-\label{sec:orgb02aa22}
+\label{sec:org7cd39b1}
 The loop’s else branch is always executed once, \textbf{regardless} of
 whether the loop has entered its body or not.
 \subsection{logical operator}
-\label{sec:org43865ee}
+\label{sec:org2023222}
 \begin{description}
 \item[{conjunction}] and
 \item[{disjunction}] or
 \end{description}
 \subsection{bitwise operators}
-\label{sec:org35df41f}
+\label{sec:org4b3c647}
 However, there are four operators that allow you to manipulate single
 bits of data. They are called bitwise operators
 g
@@ -264,14 +264,14 @@ g
 \item \^{}     (caret)           bitwise exclusive or (xor)
 \end{enumerate}
 \subsubsection{To make it easy:}
-\label{sec:orgc914da8}
+\label{sec:org6d55431}
 \begin{itemize}
 \item \& requires exactly two 1s to provide 1 as the result
 \item | requires at least one 1 to provide 1 as the result
 \item \^{} requires exactly one 1 to provide 1 as the result
 \end{itemize}
 \subsection{Bit mask ::}
-\label{sec:org246b552}
+\label{sec:org8c82876}
 \begin{description}
 \item[{to Determine}] if FlagRegister \& myMask: \#is set
 \item[{to Reset}] FlagRegister \&= \textasciitilde{}myMask
@@ -279,7 +279,7 @@ g
 \item[{to negate}] FlagRegister \^{}= myMask
 \end{description}
 \subsection{Shifting}
-\label{sec:org1e95e28}
+\label{sec:org2c1c61c}
 \begin{itemize}
 \item Shifting is applied only to integer values
 \item as two is the base for binary numbers (not 10), shifting a value one
@@ -293,23 +293,23 @@ argument determines the size of the shift. It shows that this
 operation is certainly not commutative.
 \end{itemize}
 \subsection{List Elements}
-\label{sec:orga23982f}
+\label{sec:org32d63a2}
 You can’t access an element which doesn’t exist – you can neither get
 its value nor assign it a value, so you need append() method
 \subsection{Method \textasciitilde{} Function}
-\label{sec:orgccc1e95}
+\label{sec:org49e421f}
 A method is owned by the data it works for, while a function is owned
 by the whole code.
 \subsection{list.insert(where, what)}
-\label{sec:org4965f09}
+\label{sec:org0af5a4b}
 \subsection{to change value of 2 variables}
-\label{sec:org6c9603d}
+\label{sec:org7faac2c}
 var1, var2 = var2, var1
 \subsubsection{also for lists exp:}
-\label{sec:orgeb14b26}
+\label{sec:orga82d3cd}
 num[0], num[4] = num[4], num[0]
 \subsection{list \textasciitilde{} variables}
-\label{sec:orge1fe320}
+\label{sec:org20aaab6}
 \begin{itemize}
 \item the name of an ordinary variable is the name of its content
 \item the name of a list is the name of a memory location where the list
@@ -320,7 +320,7 @@ the other, and vice versa.
 \end{itemize}
 
 \subsection{slice}
-\label{sec:orgf5e22a4}
+\label{sec:org62816d4}
 \begin{description}
 \item[{syntax}] \texttt{list[start:end]}
 this contains from start to end-1
@@ -337,14 +337,14 @@ first and second element of list1 but not third one
 \end{description}
 
 \subsection{del}
-\label{sec:org0ce9567}
+\label{sec:orge9f502e}
 \begin{description}
 \item[{syntax}] \texttt{del list[start:end]}
 \item exp \texttt{del list[:]} will empty the list
 \item[{syntax}] \texttt{del list} will delete the list
 \end{description}
 \subsection{in \textasciitilde{} not in}
-\label{sec:org91a902e}
+\label{sec:org7a9bf5b}
 \begin{itemize}
 \item \texttt{in} checks if a given element (its left argument) is currently
 stored somewhere inside the list
@@ -352,14 +352,14 @@ stored somewhere inside the list
 a list
 \end{itemize}
 \subsection{list in list}
-\label{sec:orgb3d41c7}
+\label{sec:orgc0522e5}
 \begin{itemize}
 \item \texttt{board[[ i for i in range(8)] for j in range(8)]}
 this create a 8X8 matrix
 \end{itemize}
 
 \subsection{function invocation}
-\label{sec:org3760ed4}
+\label{sec:orgb3b944f}
 \begin{itemize}
 \item As python is a scripting language You mustn’t invoke a function
 which is not known at the moment of invocation.
@@ -369,7 +369,7 @@ to forget its previous role and the function will become
 unavailable.
 \end{itemize}
 \subsection{function's Parameter}
-\label{sec:orgf4fb072}
+\label{sec:orgd619a85}
 \begin{itemize}
 \item A parameter is actually a variable, but there are two important
 factors that make parameters different and special:
@@ -385,7 +385,7 @@ argument.
 \end{itemize}
 
 \subsection{Parameter \textasciitilde{} Argument}
-\label{sec:org4ad3e4b}
+\label{sec:orge466dac}
 \begin{itemize}
 \item A parameter is a variable in a method definition. When a method is
 called, the arguments are the data you pass into the method's
@@ -398,12 +398,12 @@ invocation. You must provide as many arguments as there are defined
 parameters. Failure to do so will cause an error.
 \end{itemize}
 \subsection{Shadowing}
-\label{sec:orgaf7eb51}
+\label{sec:orga5370a3}
 variable shadowing occurs when a variable declared within a certain
 scope (like function) has the same name as a
 variable declared in an outer scope.
 \subsection{Function's data passing}
-\label{sec:org1779b69}
+\label{sec:orge72ad3c}
 \begin{description}
 \item[{Positional parameter passing}] A technique which assigns the i'th (first, second, and so on)
 argument to the i'th (first, second, and so on) function
@@ -418,7 +418,7 @@ one unbreakable rule: you have to put positional arguments before
 keyword ones.
 \end{description}
 \subsection{return}
-\label{sec:org1c5c60e}
+\label{sec:orgf4292c0}
 \begin{description}
 \item[{just \texttt{return}}] it causes the immediate termination of the function’s execution,
 and an instant return (hence the name) to the
@@ -437,7 +437,7 @@ and will return (hence the name once again) it as the function’s
 result.
 \end{description}
 \subsection{None}
-\label{sec:org7cbff21}
+\label{sec:org0c32b43}
 \begin{itemize}
 \item data of this value doesn’t represent any reasonable value –
 actually, it’s not a value at all; hence, it mustn’t take part in
@@ -450,9 +450,9 @@ result)
 \end{enumerate}
 \end{itemize}
 \subsection{scope (very important)}
-\label{sec:org1327732}
+\label{sec:org0199e19}
 \subsubsection{variables}
-\label{sec:org4f6339e}
+\label{sec:orgc68d2e6}
 \begin{itemize}
 \item The scope of a name (e.g., a variable name) is the part of a code
 where the name is properly recognizable.
@@ -473,7 +473,7 @@ the outside world.
 \end{itemize}
 
 \subsubsection{list}
-\label{sec:org0e16af7}
+\label{sec:org4005da1}
 \begin{itemize}
 \item for lists it's totally different as demonstrated below
 \item in any condition you can modify list using method inside or outside
@@ -485,10 +485,10 @@ just inside function
 \end{itemize}
 
 \subsubsection{conclusion}
-\label{sec:orgb683f42}
+\label{sec:org9bd3a75}
 
 \paragraph{with parameter}
-\label{sec:org702f39a}
+\label{sec:orgc2846f9}
 \begin{center}
 \begin{tabular}{ll}
 action & effect\\
@@ -504,7 +504,7 @@ if modify using list name via methods & effects globaly and localy\\
 \end{center}
 
 \paragraph{without parameter}
-\label{sec:org356632f}
+\label{sec:orgc751d3e}
 \begin{center}
 \begin{tabular}{ll}
 action & effect\\
@@ -520,7 +520,7 @@ via methods & \\
 \end{center}
 
 \subsubsection{Sample Code}
-\label{sec:org3dadccb}
+\label{sec:org93f2511}
 
 \begin{minted}[linenos,firstnumber=1]{python}
 # in this sectoin i'm going to examin scope for list
@@ -629,7 +629,7 @@ outside after invocation list5: [1, 2, 3, 4, 5]
 \end{verbatim}
 
 \subsection{global}
-\label{sec:orgfad22b1}
+\label{sec:orgb013e3f}
 \begin{itemize}
 \item Using this keyword inside a function with the name (or names
 separated with commas) of a variable(s), forces Python to refrain
@@ -644,10 +644,10 @@ list, not the parameter!), the list will reflect the change.
 \end{itemize}
 
 \subsection{recursion}
-\label{sec:orga223e34}
+\label{sec:org2915e12}
 recursion is a technique where a function invokes itself.
 \subsection{sequence type}
-\label{sec:orgd7fd58a}
+\label{sec:orge734040}
 A sequence type is a type of data in Python which is able to store
 more than one value (or less than one, as a sequence may be empty),
 and these values can be sequentially (hence the name) browsed,
@@ -655,20 +655,20 @@ element by element. As the for loop is a tool especially designed to
 iterate through sequences, we can express the definition as:
 \textbf{a sequence is data which can be scanned by the for loop.} like \textbf{list}
 \subsection{mutability}
-\label{sec:org6a0dd52}
+\label{sec:org962615e}
 It is a property of any of Python’s data that describes its readiness to
 be freely changed during program execution. There are two kinds of
 Python data: mutable and immutable.
 
 \subsubsection{mutable}
-\label{sec:org7f85df0}
+\label{sec:org8af42ac}
 Mutable data can be freely updated at any time – we call such an
 operation in situ. In situ is a Latin phrase that translates as
 literally “in position”. For example, the following instruction
 modifies the data in situ: \texttt{list.append(1)}
 
 \subsubsection{immutable}
-\label{sec:org79a2acf}
+\label{sec:org2a1d1c6}
 \textbf{Immutable data cannot be modified in this way.} Imagine that a list can
 only be assigned and read over. You would be able neither to append an
 element to it, nor remove any element from it. This means that
@@ -677,12 +677,12 @@ recreation of the list from scratch. You would have to build a
 completely new list, consisting of the all elements of the already
 existing list, plus the new element.
 \subsection{tuple}
-\label{sec:orgff9d4e8}
+\label{sec:org419ddc4}
 A tuple is an \textbf{immutable sequence type}. It can behave like a list, but
 it mustn’t be modified in situ.
 
 \subsubsection{syntax}
-\label{sec:org7d6d549}
+\label{sec:orga986c96}
 name = (value, value, value)
 or
 name = value, value, value
@@ -694,7 +694,7 @@ consideration the fact that, due to syntax reasons}
 \end{itemize}
 
 \subsection{dictionary}
-\label{sec:orgcaaeee7}
+\label{sec:orgeca214b}
 The dictionary is another Python data structure. It’s not a sequence
 type (but can be easily adapted to sequence processing) and it is
 mutable.
@@ -715,11 +715,11 @@ your control, and your expectations. That’s normal.
 \end{itemize}
 
 \subsubsection{syntax}
-\label{sec:orgaaaf4e8}
+\label{sec:org36d07d7}
 name = \{ key:value, key:value \}
 
 \subsubsection{access}
-\label{sec:orgca522f1}
+\label{sec:org9b14b53}
 \begin{itemize}
 \item name[key]
 
@@ -743,16 +743,16 @@ for key, value in dct.items():
 \end{itemize}
 
 \subsubsection{add}
-\label{sec:orgad560f9}
+\label{sec:org5dafbc5}
 name[newKey] = newValue
 \textbf{180 degree different from lists}
 
 \subsubsection{del}
-\label{sec:org0636ab5}
+\label{sec:org8967ee6}
 del name[key]
 
 \subsection{set}
-\label{sec:orgc3384ae}
+\label{sec:org2c79cbb}
 \textbf{Set} in Python is a data structure equivalent to sets in
 mathematics. It may consist of various elements; \textbf{the order of elements}
 \textbf{in a set is undefined.} You can add and delete elements of a set, you
@@ -787,7 +787,7 @@ print(my_set)
 
 \begin{verbatim}
 {1, 2, 3}
-{1.0, (1, 2, 3), 'Hello'}
+{'Hello', 1.0, (1, 2, 3)}
 \end{verbatim}
 
 \begin{minted}[linenos,firstnumber=1]{python}
@@ -800,13 +800,41 @@ print(my_set1)
 
 \begin{verbatim}
 {1, 2, 3}
-{'e', 'l', 'H', 'o'}
+{'o', 'H', 'e', 'l'}
+\end{verbatim}
+
+\subsection{\texttt{split()}}
+\label{sec:org90199b2}
+The \texttt{split()} method returns a list of all the words in the string,
+using str as the separator (splits on all whitespace if left
+unspecified), optionally limiting the number of splits to num.
+
+Syntax : \texttt{str.split(str="", num = string.count(str))}
+
+\begin{itemize}
+\item \textbf{str}  This is any delimeter, by default it is space.
+\item \textbf{num}  This is number of lines to be made
+\end{itemize}
+
+\begin{minted}[linenos,firstnumber=1]{python}
+str = "this is string example....wow!!!"
+print (str.split( ))
+print (str.split('i',1))
+print (str.split('w'))
+
+
+\end{minted}
+
+\begin{verbatim}
+['this', 'is', 'string', 'example....wow!!!']
+['th', 's is string example....wow!!!']
+['this is string example....', 'o', '!!!']
 \end{verbatim}
 
 \newpage
 
 \subsection{Table of priorities}
-\label{sec:orgb55f99d}
+\label{sec:org0cbd435}
 
 \begin{figure}[htbp]
 \centering
@@ -816,14 +844,14 @@ print(my_set1)
 
 \newpage
 \section{Modules and Packages}
-\label{sec:org06270ae}
+\label{sec:org938cc1b}
 \subsection{Namespace}
-\label{sec:orgdf8ee7c}
+\label{sec:org83e0bf2}
 Namespace is a space in which some names exist and the names don’t
 conflict with each other; in fact \textbf{there are not} two different objects of the
 same name.
 \subsection{Module}
-\label{sec:org7183366}
+\label{sec:org81eeff5}
 
 \begin{figure}[htbp]
 \centering
@@ -849,7 +877,7 @@ you can make use of any of the entities it stores.
 
 \newpage
 \subsection{Package}
-\label{sec:org9cb63d7}
+\label{sec:org917fe03}
 
 \begin{figure}[htbp]
 \centering
@@ -865,7 +893,7 @@ package plays a similar role to a folder/directory in the
 world of files.
 
 \subsubsection{Locating package's files}
-\label{sec:orgb18a63a}
+\label{sec:orgd530d9d}
 for instance according to the image above:
 \begin{itemize}
 \item the location of a function named FunT() from the tau package may be
@@ -881,7 +909,7 @@ the \texttt{ugly} subpackage of the \texttt{extra} package.
 
 
 \subsubsection{Initialization package}
-\label{sec:org844db74}
+\label{sec:org30af4a8}
 The initialization of a module is done by an unbound code (not a part
 of any function) located inside the module’s file. As a package is not
 a file, this technique is useless for initializing packages. You need
@@ -899,7 +927,7 @@ leave the file empty, but you mustn’t omit it.
 individual treatment and special kinds of initialization.
 \end{itemize}
 \subsection{Import}
-\label{sec:org247018c}
+\label{sec:org46d07ba}
 \begin{description}
 \item[{syntax}] \texttt{import moduleName1, moduleName2, ...}
 \begin{itemize}
@@ -967,7 +995,7 @@ choose.
 consequences of this fact).}
 
 \subsubsection{import addressing}
-\label{sec:org96ae38d}
+\label{sec:org0fd5dd0}
 \begin{itemize}
 \item If the module is not in the same directory but the directory is a
 child of current directory:
@@ -1015,7 +1043,7 @@ use insert() instead.
 \newpage
 \end{itemize}
 \subsection{Creating a Module}
-\label{sec:orgf0cc211}
+\label{sec:org0fd6213}
 \begin{enumerate}
 \item Creating a file with module name and .py extension
 \item Creating a file which is named \textbf{main.py}, it contains just a line
@@ -1033,7 +1061,7 @@ created the file (CPython here) and its version number. (xy)
 \end{enumerate}
 
 \subsubsection{Notes:}
-\label{sec:orga68e109}
+\label{sec:orgf0b162d}
 \begin{itemize}
 \item When Python imports a module for the first time, it translates
 its contents into a somewhat compiled shape. The file doesn’t contain
@@ -1072,7 +1100,7 @@ fortunately, \textbf{only the first import occurs.} Python remembers the
 imported modules and silently omits all subsequent imports.
 
 \subsubsection{\texttt{\_\_name\_\_} variable}
-\label{sec:orga59a5d1}
+\label{sec:orgf8782c4}
 \begin{itemize}
 \item when you run a file directly, its \texttt{\_\_name\_\_} variable is set to
 \texttt{\_\_main\_\_};
@@ -1081,7 +1109,7 @@ the file’s name (excluding .py)
 \end{itemize}
 
 \subsubsection{variable deceleration}
-\label{sec:org636076b}
+\label{sec:org12c459b}
 Unlike many others programming languages, Python has no means of
 allowing you to hide such variables from the eyes of the module’s
 users. You can only inform your users that this is your variable, that
@@ -1091,7 +1119,7 @@ or \texttt{\_\_}, but remember, it’s only a convention. Your module’s users 
 obey it or they may not. Exp, \texttt{\_\_counter = 0}
 
 \subsubsection{shabang}
-\label{sec:org8f577b6}
+\label{sec:orgfcb4285}
 \begin{description}
 \item[{syntax}] \texttt{\#!/usr/bin/env python3}
 \end{description}
@@ -1102,7 +1130,7 @@ environments (especially those connected with web servers) the absence
 of that line will cause trouble;
 
 \subsubsection{doc-string}
-\label{sec:orgd46c0e3}
+\label{sec:org3119423}
 \begin{description}
 \item[{syntax}] \texttt{"""the module description"""}
 \end{description}
@@ -1111,7 +1139,7 @@ a string (maybe a multiline) placed before any module instructions
 explain the purpose and contents of the module;
 
 \subsection{path}
-\label{sec:org08548ad}
+\label{sec:org158ef78}
 There’s a special variable (actually a list) storing all locations
 (folders/directories) that are searched in order to find a module
 which has been requested by the import instruction. Python browses
@@ -1132,7 +1160,7 @@ path’s element.
 \end{itemize}
 
 \subsection{dir()}
-\label{sec:orgdf80859}
+\label{sec:org60c6cfc}
 it is able to reveal all the names provided through a particular
 module. There is one condition: the module has to have been previously
 imported as a whole (i.e., using the import module instruction – from
@@ -1144,12 +1172,12 @@ by a name passed to the function as an argument.
 not the original name.}
 
 \subsection{Some math functions}
-\label{sec:orgff329bf}
+\label{sec:org690fb78}
 \subsubsection{pow()}
-\label{sec:org407be94}
+\label{sec:org7a970bc}
 pow(x,y) This is a built-in function, and doesn’t have to be imported.
 \subsubsection{floor() \& ceil()}
-\label{sec:orgef90e76}
+\label{sec:org56a49e6}
 floor always round to smaller number, where ceil round to bigger number
 
 \begin{minted}[linenos,firstnumber=1]{python}
@@ -1177,7 +1205,7 @@ print(trunc(-x), trunc(-y))
 \end{verbatim}
 
 \subsubsection{random()}
-\label{sec:orga6f8f69}
+\label{sec:org2bf0837}
 \begin{itemize}
 \item Produces a float number x coming from the range (0.0, 1.0) –in other
 words: (0.0 <= x < 1.0).
@@ -1185,13 +1213,13 @@ words: (0.0 <= x < 1.0).
 an input value, calculates a “random” number based on it.
 \end{itemize}
 \subsubsection{seed()}
-\label{sec:orgcfa0bf6}
+\label{sec:org04276c0}
 \begin{itemize}
 \item \texttt{seed()} – sets the seed with the current time;
 \item \texttt{seed(i)} – sets the seed with the integer value i.
 \end{itemize}
 \subsubsection{randrange()}
-\label{sec:org2b270ed}
+\label{sec:org122c7f2}
 If you want integer random values, one of the following functions
 would fit better. First three one has \textbf{right-sided exclusion!} but the
 last one \texttt{randint(left, right)} starts from \emph{left} and ends on \emph{right}
@@ -1215,21 +1243,21 @@ print(randint(0,1))
 \end{minted}
 
 \begin{verbatim}
-4
-1
+2
+2
 16
-1
+0
 \end{verbatim}
 
 \subsubsection{choice()}
-\label{sec:orgf0d3ad2}
+\label{sec:org50bcf7b}
 \begin{description}
 \item[{syntax}] \texttt{choice(sequence)}
 \end{description}
 Chooses a “random” element from the input sequence(list,\ldots{}) and
 returns it.
 \subsubsection{sample()}
-\label{sec:org64badb0}
+\label{sec:org7c21c88}
 \begin{description}
 \item[{syntax}] \texttt{sample(sequence, elements\_to\_chose=1)}
 \end{description}
@@ -1246,16 +1274,16 @@ print(sample(lst, 5))
 \end{minted}
 
 \begin{verbatim}
-[8, 0, 3, 5, 9]
+[3, 4, 6, 2, 1]
 \end{verbatim}
 
 
 \newpage
 
 \subsection{Some platform functions}
-\label{sec:orga9c520b}
+\label{sec:org1fe21e4}
 \subsubsection{platform()}
-\label{sec:orgf350ac3}
+\label{sec:orgfe083a6}
 \begin{description}
 \item[{syntax}] 
 \end{description}
@@ -1273,7 +1301,7 @@ the function to present a briefer form of the result (if possible)
 \end{itemize}
 
 \subsubsection{machine()}
-\label{sec:org208d955}
+\label{sec:orge81b1a0}
 \begin{description}
 \item[{syntax}] 
 \end{description}
@@ -1294,7 +1322,7 @@ function returns a string.
 \end{itemize}
 
 \subsubsection{processor()}
-\label{sec:org25b45a3}
+\label{sec:org90b28fd}
 \begin{description}
 \item[{syntax}] 
 \end{description}
@@ -1313,7 +1341,7 @@ processor name (if possible)
 \end{itemize}
 
 \subsubsection{system()}
-\label{sec:org8e82ee7}
+\label{sec:org2e6695a}
 \begin{description}
 \item[{syntax}] 
 \end{description}
@@ -1331,7 +1359,7 @@ Darwin
 \end{itemize}
 
 \subsubsection{version()}
-\label{sec:org748df09}
+\label{sec:orgdd246c3}
 \begin{description}
 \item[{syntax}] 
 \end{description}
@@ -1349,7 +1377,7 @@ Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~
 \end{itemize}
 
 \subsubsection{python info}
-\label{sec:orgdd64f08}
+\label{sec:orga79aee9}
 \begin{description}
 \item[{syntax}] 
 \end{description}
@@ -1378,9 +1406,9 @@ non-canonical Python branch)
 \end{itemize}
 
 \section{Error and Exception}
-\label{sec:orgbf70d02}
+\label{sec:org3173403}
 \subsection{Raising an exception}
-\label{sec:org3dbec46}
+\label{sec:orgae23cf7}
 Each time your code tries to do something
 wrong/foolish/irresponsible/crazy/unenforceable, Python does two
 things:
@@ -1395,7 +1423,7 @@ that Python always raises an exception (or that an exception has been
 raised) when it has no idea what do to with your code.
 
 \subsection{try - except}
-\label{sec:org739c99a}
+\label{sec:orga4ed8c1}
 \begin{enumerate}
 \item the \texttt{try} keyword begins a block of the code which may or may not be
 performing correctly;
@@ -1438,7 +1466,7 @@ first instruction located after the except: keyword; this means that
 \textbf{some} of the instructions from the block may be silently omitted.
 
 \subsubsection{try - multiple exceptions}
-\label{sec:org0ab6199}
+\label{sec:org7f2f79e}
 \begin{itemize}
 \item syntax
 \begin{itemize}
@@ -1504,7 +1532,7 @@ THE END
 
 \newpage
 \subsubsection{finally}
-\label{sec:orga683616}
+\label{sec:org6c2ec43}
 Code in a finally statement even runs if an uncaught exception occurs
 in one of the preceding blocks.
 
@@ -1525,7 +1553,7 @@ This is executed last
 \end{verbatim}
 
 \subsection{Anatomy of exceptions}
-\label{sec:org082d199}
+\label{sec:org249c671}
 
 \begin{figure}[htbp]
 \centering
@@ -1549,14 +1577,14 @@ abstract) than the raised one.
 \end{itemize}
 
 \subsection{Some useful exceptions}
-\label{sec:orgc190e1f}
+\label{sec:orgf338127}
 \subsubsection{BaseException ← Exception ← ArithmeticError}
-\label{sec:org06637da}
+\label{sec:orgfd69db6}
 an abstract exception including all exceptions caused by arithmetic
 operations like zero division or an argument’s invalid domain
 
 \subsubsection{BaseException ← Exception ← AssertionError}
-\label{sec:orgb3eaa67}
+\label{sec:org8f6c309}
 a concrete exception raised by the assert instruction when its
 argument evaluates to \textbf{False, None, zero, or an empty string}
 
@@ -1569,7 +1597,7 @@ print(tan(radians(angle)))
 \end{minted}
 
 \subsubsection{BaseException}
-\label{sec:org6d4aa42}
+\label{sec:org8464929}
 the most general (abstract) of all Python exceptions – all other
 exceptions are included in this one; it can be said that the following
 two except branches are equivalent:
@@ -1579,7 +1607,7 @@ two except branches are equivalent:
 \texttt{except BaseException:}
 
 \subsubsection{BaseException ← Exception ← LookupError ← IndexError}
-\label{sec:org326ead3}
+\label{sec:org834b763}
 a concrete exception raised when you try to access a non-existent
 sequence’s element (e.g., a list’s)
 
@@ -1598,13 +1626,13 @@ print('Done')
 \end{minted}
 
 \subsubsection{BaseException ← Exception ← LookupError}
-\label{sec:org3de8c55}
+\label{sec:org3968543}
 an abstract exception including all exceptions caused by errors
 resulting from invalid references to different collections (lists,
 dictionaries, tuples, etc.)
 
 \subsubsection{BaseException ← KeyboardInterrupt}
-\label{sec:org937eec4}
+\label{sec:orge057ebc}
 a concrete exception raised when the user uses a keyboard shortcut
 designed to terminate a program’s execution (Ctrl-C in most OSs); if
 handling this exception doesn’t lead to program termination, the
@@ -1625,7 +1653,7 @@ while True:
 \end{minted}
 
 \subsubsection{BaseException ← Exception ← MemoryError}
-\label{sec:orge282729}
+\label{sec:org5791c3a}
 a concrete exception raised when an operation cannot be completed due
 to a lack of free memory
 
@@ -1644,7 +1672,7 @@ except MemoryError:
 \end{minted}
 
 \subsubsection{BaseException ← Exception ← ArithmeticError ← OverflowError}
-\label{sec:orgd3e07a2}
+\label{sec:orgce61587}
 a concrete exception raised when an operation produces a number too
 big to be successfully stored
 
@@ -1662,7 +1690,7 @@ except OverflowError:
 \end{minted}
 
 \subsubsection{BaseException ← Exception ← StandardError ← ImportError}
-\label{sec:orgf0b8840}
+\label{sec:org450df22}
 a concrete exception raised when an import operation fails
 
 \begin{minted}[linenos,firstnumber=1]{python}
@@ -1676,7 +1704,7 @@ except:
 \end{minted}
 
 \subsubsection{BaseException ← Exception ← LookupError ← KeyError}
-\label{sec:org775dda2}
+\label{sec:org76ecf25}
 a concrete exception raised when you try to access a non-existent
 collection’s element (e.g., a dictionary’s)
 
@@ -1701,7 +1729,7 @@ No such key: d
 \end{verbatim}
 
 \subsection{raise}
-\label{sec:org3b02f70}
+\label{sec:org96a8879}
 The raise instruction raises the specified exception named exc as if
 it was raised in a normal
 \begin{itemize}
@@ -1748,7 +1776,7 @@ raise NameError("Invalid name!")
 \end{minted}
 
 \subsection{assert}
-\label{sec:orgadd75c6}
+\label{sec:org169a52e}
 How does it work?
 \begin{itemize}
 \item It evaluates the expression;
@@ -1792,7 +1820,7 @@ assert (temp >= 0), "Colder than absolute zero!"
 \end{minted}
 
 \subsection{else}
-\label{sec:org041ccc6}
+\label{sec:orgf3cb8cc}
 \textbf{A code labelled in this way is executed when (and only when) no}
 \textbf{exception has been raised inside the \texttt{try} part}.  We can say that
 exactly one branch can be executed after \texttt{try:} either the one
@@ -1817,7 +1845,7 @@ print(reciprocal(0))
 \end{minted}
 
 \subsection{finally}
-\label{sec:org612eaa8}
+\label{sec:org1493ca7}
 The \texttt{try-except} block can be extended in one more way – by adding a
 part headed by the \texttt{finally} keyword (it must be the last branch of
 the code designed to handle exceptions). Note that these two variants
@@ -1845,7 +1873,7 @@ print(reciprocal(0))
 \end{minted}
 
 \subsection{Exception Object}
-\label{sec:orgcab5608}
+\label{sec:org0975b77}
 You probably won’t be surprised to learn that exceptions are
 classes. Furthermore, when an exception is raised, an object of the
 class is instantiated, and goes through all levels of program
@@ -1871,7 +1899,7 @@ except Exception as e:
 \end{minted}
 
 \subsection{Extending Exceptions}
-\label{sec:orga88b740}
+\label{sec:org26c6861}
 The exceptions hierarchy is neither closed nor finished, and you can
 always extend it if you want or need to create your own world
 populated with your own exceptions. It may be useful when you create a
@@ -1935,7 +1963,7 @@ My division by zero
 
 \newpage
 \subsection{Extending Exceptions Example}
-\label{sec:org615a688}
+\label{sec:org7367cb3}
 Here we've provided a good and yet simple example to help you
 understand extending exception from the scratch!
 
@@ -1975,9 +2003,9 @@ no such pizza in menu : mafia
 \newpage
 
 \section{Strings}
-\label{sec:org8e772fd}
+\label{sec:org50a0016}
 \subsection{Terminology}
-\label{sec:orgf18ec38}
+\label{sec:orgf7bac71}
 \begin{itemize}
 \item Computers store characters as numbers. Every character used by a
 computer corresponds to a unique number, and vice versa.
@@ -2046,7 +2074,7 @@ AfgakjgkasdjgagaZ
 \end{verbatim}
 
 \subsection{Multiline string}
-\label{sec:org23d2470}
+\label{sec:org25412f0}
 The string has to start with three apostrophes, not one. The same
 tripled apostrophe is used to terminate it. The number of text lines
 put inside such a string is arbitrary. The multiline strings can be
@@ -2068,7 +2096,7 @@ The string length is: 15
 \end{verbatim}
 
 \subsection{comparing}
-\label{sec:orgc98500c}
+\label{sec:orgfbc6a67}
 \begin{itemize}
 \item The final relation between strings is determined by comparing the
 first different character in both strings (keep ASCII/UNICODE code
@@ -2089,33 +2117,33 @@ operators will raise a TypeError exception.
 
 \newpage
 \subsection{Operations}
-\label{sec:org8870cf5}
+\label{sec:orgfdac241}
 \subsubsection{concatenated}
-\label{sec:org2dc50aa}
+\label{sec:orgfe317af}
 The + operator used against two or more strings produces a new string
 containing all the characters from its arguments (note: the order
 matters – this overloaded +, in contrast to its numerical version,
 is not commutative)
 
 \subsubsection{Replicated}
-\label{sec:org23b799a}
+\label{sec:org387ec86}
 the * operator needs a string and a number as arguments; in this case,
 the order doesn’t matter – you can put the number before the string,
 or vice versa, the result will be the same – a new string created by
 the nth replication of the argument’s string.
 
 \subsubsection{ord()}
-\label{sec:org861f7fe}
+\label{sec:orgf0e608c}
 If you want to know a specific character’s ASCII/UNICODE code point
 value, you can use a function named ord() (as in ordinal).
 
 \subsubsection{chr()}
-\label{sec:orgd9152cf}
+\label{sec:orgb58caa8}
 If you know the code point (number) and want to get the corresponding
 character, you can use a function named chr().
 
 \subsubsection{slice}
-\label{sec:orgabbaa75}
+\label{sec:org7d4ef8b}
 Moreover, everything you know about slices is still usable. 
 
 \begin{minted}[linenos,firstnumber=1]{python}
@@ -2140,7 +2168,7 @@ beg
 \end{verbatim}
 
 \subsubsection{min()}
-\label{sec:org0f78f5e}
+\label{sec:org6343a5f}
 The function finds the minimum element of the sequence passed as an
 argument. There is one condition – the sequence (string, list, it
 doesn’t matter) cannot be empty, or else you’ll get a ValueError
@@ -2159,14 +2187,14 @@ print(min(t))
 0
 \end{verbatim}
 \subsubsection{index()}
-\label{sec:orgdd941f8}
+\label{sec:org57886b9}
 The \texttt{index()} method (it’s a method, not a function) searches the
 sequence from the beginning, in order to find the first element of the
 value specified in its argument. Note that the element searched for must
 occur in the sequence – its absence will cause a \texttt{ValueError} exception.
 exp: \texttt{print('sdfaksdgagalrkg'.index(k))}
 \subsubsection{list()}
-\label{sec:orgbbeeee9}
+\label{sec:orgcf35c79}
 The list() function takes its argument (a string) and creates a new
 list containing all the string’s characters, one per list
 element. Note that t’s not strictly a string function – list() is able
@@ -2181,11 +2209,11 @@ print(list('salam'))
 ['s', 'a', 'l', 'a', 'm']
 \end{verbatim}
 \subsubsection{count()}
-\label{sec:org0f44260}
+\label{sec:org7bda5b4}
 The count() method counts all occurrences of the element inside the
 sequence. The absence of such elements doesn’t cause any problems.
 \subsubsection{sorted() vs sort()}
-\label{sec:org8615f77}
+\label{sec:org2b44a54}
 \begin{itemize}
 \item \textbf{sorted()} The function takes one argument (a list) and returns a new list,
 filled with the sorted argument’s elements.
@@ -2195,13 +2223,13 @@ is performed in situ by the method named sort() so it's not useful for strings
 
 \newpage
 \subsection{String methods}
-\label{sec:orga2dde2e}
+\label{sec:org70b9e9d}
 Note: methods don’t have to be invoked from within variables
 only. They can be invoked directly from within string literals. We’re
 going to use that convention regularly
 
 \subsubsection{capitalize()}
-\label{sec:org1bbd6a2}
+\label{sec:org21bfec2}
 \begin{itemize}
 \item if the first character inside the string is a letter (note: the
 first character is an element with an index equal to 0, not just the
@@ -2232,7 +2260,7 @@ Alpha
 \end{verbatim}
 
 \subsubsection{center()}
-\label{sec:org51d6234}
+\label{sec:org4eca017}
 \begin{itemize}
 \item The one-parameter variant of the center() method makes a copy of the
 original string, trying to center it inside a field of a specified
@@ -2260,7 +2288,7 @@ print('['+'alpha'.center(10, '*')+']')
 \end{verbatim}
 
 \subsubsection{endswith()}
-\label{sec:org311bf45}
+\label{sec:org9da2e9d}
 The endswith() method checks if the given string ends with the
 specified argument and returns True or False, depending of the check
 result.
@@ -2279,11 +2307,11 @@ False
 \end{verbatim}
 
 \subsubsection{startswitch()}
-\label{sec:org8465713}
+\label{sec:orge25209d}
 The startswith() method is a mirror reflection of endswith() ­– it
 checks if a given string starts with the specified substring.
 \subsubsection{find()}
-\label{sec:orgf7358ff}
+\label{sec:org4e499fd}
 \begin{itemize}
 \item The find() method is similar to index(), which you already know (it
 looks for a substring), but: it’s safer – it doesn’t generate an
@@ -2350,7 +2378,7 @@ while fnd != -1:
 \end{verbatim}
 
 \subsubsection{rfind()}
-\label{sec:orgd5f12f6}
+\label{sec:org7a3cdc6}
 The one-, two-, and three-parameter methods named rfind() do nearly
 the same things as their counterparts (the ones devoid of the r
 prefix), but start their searches from the end of the string, not the
@@ -2393,7 +2421,7 @@ print(t.rfind('ta',3,9))
 \end{verbatim}
 
 \subsubsection{isalnum()}
-\label{sec:org858322b}
+\label{sec:org37370e1}
 The parameterless method named isalnum() checks if the string contains
 only digits or alphabetical characters (letters), and returns
 True/False according to the result →
@@ -2414,31 +2442,31 @@ False
 \end{verbatim}
 
 \subsubsection{isalpha()}
-\label{sec:orgc777e4e}
+\label{sec:org6b926ca}
 The isalpha() method is more specialized – it’s interested in letters
 only
 
 \subsubsection{isdigit()}
-\label{sec:org0954244}
+\label{sec:org6f504f4}
 In turn, the isdigit() method looks at digits only – anything else
 produces False as the result.
 
 \subsubsection{islower()}
-\label{sec:org76ab4a2}
+\label{sec:orgb4b6b99}
 The islower() method is a fussy variant of isalpha() – it accepts
 lower-case letters only.
 
 \subsubsection{isupper()}
-\label{sec:orgddd5ed0}
+\label{sec:org04dfb5e}
 The isupper() is the upper-case version of islower() – it concentrates
 on upper-case letters only.
 
 \subsubsection{isspace()}
-\label{sec:org13d7839}
+\label{sec:org238c899}
 The isspace() method identifies whitespaces only – it disregards any
 other character (the result is False then). Note that \texttt{\textbackslash{}n} is a whitespace
 \subsubsection{join()}
-\label{sec:orgacb459a}
+\label{sec:org10772e5}
 The join() method is rather complicated, so let us guide you step by
 step thorough it:
 \begin{itemize}
@@ -2463,7 +2491,7 @@ omicron pi rho
 \end{verbatim}
 
 \subsubsection{lower()}
-\label{sec:org1f3e938}
+\label{sec:org863d5dc}
 The lower() method makes a copy of a source string, replaces all
 upper-case letters with their lower-case counterparts, and returns the
 string as the result. Again, the source string remains untouched.
@@ -2477,7 +2505,7 @@ lghwg60
 \end{verbatim}
 
 \subsubsection{upper()}
-\label{sec:orgd9633b9}
+\label{sec:orgf2e7f51}
 The upper() method makes a copy of the source string, replaces all
 lower-case letters with their upper-case counterparts, and returns the
 string as the result.
@@ -2491,7 +2519,7 @@ SIGMA=60
 \end{verbatim}
 
 \subsubsection{swapcase()}
-\label{sec:org91d1d61}
+\label{sec:orgb74c76a}
 The swapcase() method makes a new string by swapping the case of all
 letters within the source string: lower-case characters become
 upper-case, and vice versa.
@@ -2505,7 +2533,7 @@ oNE THING i KNOW, THAT i KNOW NOTHING
 \end{verbatim}
 
 \subsubsection{title()}
-\label{sec:orgb0d495e}
+\label{sec:org36a06c3}
 The title() method performs a somewhat similar function – it changes
 every word’s first letter to upper-case, turning all other ones to
 lower-case.
@@ -2519,7 +2547,7 @@ One Thing I Know, That I Know Nothing
 \end{verbatim}
 
 \subsubsection{lstrip()\hfill{}\textsc{more\_study}}
-\label{sec:orgb27aa55}
+\label{sec:org47c2ec1}
 \begin{itemize}
 \item The parameterless lstrip() method returns a newly created string
 formed from the original one by removing all leading whitespaces.
@@ -2539,7 +2567,7 @@ cisco.com
 \end{verbatim}
 
 \subsubsection{rstrip()\hfill{}\textsc{more\_study}}
-\label{sec:org7dadf79}
+\label{sec:org6a935d5}
 Two variants of the rstrip() method do nearly the same as lstrips, but
 affect the opposite side of the string.
 
@@ -2558,7 +2586,7 @@ www.cisco.co
 \end{verbatim}
 
 \subsubsection{strip()}
-\label{sec:org8620fd9}
+\label{sec:org7f99e64}
 The strip() method combines the effects caused by rstrip() and
 lstrip() – it makes a new string lacking all the leading and trailing
 whitespaces.
@@ -2572,7 +2600,7 @@ print('['+'  aleph  '.strip()+']')
 \end{verbatim}
 
 \subsubsection{replace()}
-\label{sec:org43e03d7}
+\label{sec:org9c3a8a7}
 \begin{itemize}
 \item The two-parameter method replace() returns a copy of the original
 string in which all occurrences of the first argument have been
@@ -2590,7 +2618,7 @@ thare are it, these is it
 \end{verbatim}
 
 \subsubsection{split()}
-\label{sec:org4a81c44}
+\label{sec:org3322451}
 The split() method does what it says – it splits the string and
 builds a list of all detected substrings. The method assumes that
 the substrings are delimited by whitespaces – the spaces don’t take
@@ -2608,9 +2636,9 @@ print('phi   chi\npsi'.split())
 \newpage
 
 \section{Object Oriented Programming}
-\label{sec:org7681a27}
+\label{sec:org19b9d09}
 \subsection{Terminology}
-\label{sec:org5920336}
+\label{sec:orgef9c342}
 \begin{itemize}
 \item The object approach suggests a completely different way of
 thinking. The data and the code are enclosed together in the same
@@ -2647,7 +2675,7 @@ abstract) than any of its subclasses.
 \newpage
 
 \subsection{Inheritance}
-\label{sec:org6af4b64}
+\label{sec:orgc7c8b98}
 
 \begin{figure}[htbp]
 \centering
@@ -2674,7 +2702,7 @@ as the relationship is fully transitive).
 \end{itemize}
 
 \subsection{Objects Roles}
-\label{sec:orga5b59ba}
+\label{sec:org8cd5597}
 \begin{enumerate}
 \item an object has a \textbf{name} that uniquely identifies it within its home
 namespace (although there may be some anonymous objects, too)
@@ -2686,7 +2714,7 @@ able to change the object itself, or some of the other objects.
 \end{enumerate}
 
 \subsection{Classes}
-\label{sec:org0d233e2}
+\label{sec:org2611c52}
 \begin{itemize}
 \item The class you define has nothing to do with the object: the
 existence of a class does not mean that any of the compatible
@@ -2709,7 +2737,7 @@ class OurClass:
 \end{minted}
 
 \subsection{Object Instantiation}
-\label{sec:org1d4760e}
+\label{sec:orgeef0a36}
 \begin{itemize}
 \item The newly defined class becomes a tool that is able to create new
 objects.
@@ -2729,7 +2757,7 @@ ourObject = ourClass()
 \end{minted}
 
 \subsubsection{Constructor}
-\label{sec:org823b572}
+\label{sec:orgb4aad55}
 A constructor is a special kind of method that Python calls when it
 instantiates an object using the definitions found in your
 class. Python relies on the constructor to perform tasks such as
@@ -2784,14 +2812,14 @@ Hello SHAE!
 \end{verbatim}
 
 \subsubsection{Encapsulation}
-\label{sec:orgc49b979}
+\label{sec:org76cd0b8}
 When any class component has a name \textbf{starting with two underscores},
 it becomes \textbf{private} – this means that it can be accessed only from
 within the class. You cannot see it from the outside world. This is
 how Python implements the encapsulation concept.
 
 \subsubsection{Methods}
-\label{sec:org60d8b05}
+\label{sec:org175230a}
 \begin{itemize}
 \item All methods have to have a \texttt{self} parameter as their first
 parameter(The self name is only a convention but it's existence is
@@ -2809,7 +2837,7 @@ the requirement, you can assume that the name is acceptable.
 
 \newpage
 \subsection{Stack}
-\label{sec:org6ddaf1c}
+\label{sec:org87a22d8}
 
 \begin{figure}[htbp]
 \centering
@@ -2837,9 +2865,9 @@ the use of stacks.
 \end{itemize}
 
 \subsubsection{Procedural Stack}
-\label{sec:orgd1c9ee2}
+\label{sec:orge710a39}
 \paragraph{push - pop}
-\label{sec:org69610ce}
+\label{sec:org0a356f3}
 Here we will define a stack and then \texttt{push} and \texttt{pop} functions. Note
 that \texttt{puah} function doesn’t return anything and \texttt{pop} function
 doesn’t check if there is any element in the stack.
@@ -2864,7 +2892,7 @@ print(pop())
 \end{minted}
 
 \subsubsection{Objective Stack}
-\label{sec:org0f58241}
+\label{sec:org4c5653d}
 The objective approach delivers very essential pros to stacks like:
 
 \begin{itemize}
@@ -2881,7 +2909,7 @@ new ones.
 \end{itemize}
 
 \paragraph{push - pop}
-\label{sec:org927a6cf}
+\label{sec:org9b712a3}
 Having such a class opens up some new possibilities. For example, you
 can now have more than one stack behaving in the same way. Each stack
 will have its own copy of private data, but will utilize the same set
@@ -2933,7 +2961,7 @@ print(stack2.pop())
 
 \newpage
 \subsection{Subclasses}
-\label{sec:orgd7b20cf}
+\label{sec:org04d3c0b}
 \begin{itemize}
 \item We don’t want to modify the previously defined stack. It’s already
 good enough in its applications, and we don’t want it changed in any
@@ -2981,7 +3009,7 @@ on the list.
 \end{itemize}
 
 \subsubsection{Changing functionality of methods}
-\label{sec:orgce4ef09}
+\label{sec:org3a4f14c}
 
 \begin{minted}[linenos,firstnumber=1]{python}
 def push(self, val):
@@ -3055,7 +3083,7 @@ for i in range(5):
 \end{verbatim}
 
 \subsection{Instance variable}
-\label{sec:orgd9c56dd}
+\label{sec:org8996300}
 Object-oriented programming allows for variables to be used at the
 \textbf{class level} or the \textbf{instance level}. Variables are essentially
 symbols that stand in for a value you’re using in a program. At the
@@ -3128,7 +3156,7 @@ impact} to all the remaining objects. Instance variables are perfectly
 isolated from each other.
 
 \subsubsection{mangling}
-\label{sec:org4dd3505}
+\label{sec:orgb290b15}
 In Python, mangling is used for "private" class members which are
 designated as such by giving them a name with two leading underscores
 and no more than one trailing underscore.
@@ -3184,7 +3212,7 @@ accessible from outside the class. You can run a code like this:
 \end{itemize}
 
 \subsection{Class variable}
-\label{sec:orgb207498}
+\label{sec:orgb3777c0}
 A class variable is a property which exists in just one copy and is
 stored outside any object. \textbf{initializing the variable inside the class
 but outside any of its methods makes the variable a class variable;}
@@ -3261,7 +3289,7 @@ print(object3.__dict__, object3._Class__Counter)
 \newpage
 
 \subsection{\texttt{hasattr}}
-\label{sec:orga8dc555}
+\label{sec:org8823095}
 Python provides a function which is able to safely check if any
 object/class contains a specified property. The function is named
 hasattr, and expects two arguments to be passed to it:
@@ -3335,7 +3363,7 @@ True
 \newpage
 
 \subsection{Classes methods}
-\label{sec:orga4a557e}
+\label{sec:org4389ad8}
 A method is a function embedded inside a class. There is one
 fundamental requirement – a method is obliged to have at least one
 parameter (there are no such thing as parameterless method – a method
@@ -3463,7 +3491,7 @@ Failed
 Hidden
 \end{verbatim}
 \subsection{Introspection/Reflection}
-\label{sec:org83dcea5}
+\label{sec:org79607bd}
 \begin{itemize}
 \item \textbf{Introspection}, which is the ability of a program to examine the
 type or properties of an object at runtime;
@@ -3478,7 +3506,7 @@ contain the metadata allowing you to recognize its features during
 program execution.
 
 \subsubsection{\texttt{\_\_name\_\_}}
-\label{sec:org69d55a5}
+\label{sec:orgb7c520c}
 The property contains the name of the class. It’s a string. the
 \texttt{\_\_name\_\_} attribute is absent from the object – \textbf{it exists only inside
 classes.}
@@ -3503,7 +3531,7 @@ Classy
 \end{verbatim}
 
 \subsubsection{\texttt{\_\_module\_\_}}
-\label{sec:org9382fce}
+\label{sec:org8cd3018}
 \texttt{\_\_module\_\_} is a string, too – it stores the name of the module which
 contains the definition of the class.
 
@@ -3526,7 +3554,7 @@ As you know, any module named \texttt{\_\_main\_\_} is actually not a module, bu
 the file currently being run.
 
 \subsubsection{\texttt{\_\_base\_\_}}
-\label{sec:org1a1f5d7}
+\label{sec:org7095a63}
 \texttt{\_\_bases\_\_} is a tuple. The tuple contains classes (not class names)
 which are direct superclasses for the class. The order is the same as
 that used inside the class definition.
@@ -3563,7 +3591,7 @@ printbases(Sub)
 ( Super1 Super2 )
 \end{verbatim}
 \subsection{Internal object identifier}
-\label{sec:org3ced133}
+\label{sec:orgbeaa913}
 if you run the code 
 
 \texttt{print(objectName)}
@@ -3575,7 +3603,7 @@ then you will see something like
 in which the \texttt{0x7f1074cc7c50} is the \textbf{internal object identifier}
 
 \subsection{\texttt{\_\_str\_\_}}
-\label{sec:org05f637b}
+\label{sec:org20c4fb8}
 When Python needs any class/object to be presented as a string
 (putting an object as an argument in the \texttt{print()} function invocation
 fits this condition) it tries to invoke a method named \texttt{\_\_str\_\_()}
@@ -3605,7 +3633,7 @@ Sun in Milky Way
 \newpage
 
 \subsection{\texttt{issubclass}}
-\label{sec:org7f22741}
+\label{sec:org9ca2578}
 Python offers a function which is able to identify a relationship
 between two classes, and although its diagnosis isn’t complex, it can
 check if a particular class is a subclass of any other class.
@@ -3646,7 +3674,7 @@ for cl1 in [Vehicle, LandVehicle, TrackedVehicle]:
 \caption{Result table}
 \end{figure}
 \subsection{instance vs variables}
-\label{sec:orgb140ab9}
+\label{sec:orgbba39ef}
 Variables don’t store the objects themselves, but only the handles
 pointing to the internal Python memory. Assigning a value of an object
 variable to another variable doesn’t copy the object, but only its
@@ -3701,7 +3729,7 @@ assignments, both strings contain the same texts, but these texts
 are stored in different objects.
 \end{itemize}
 \subsection{Override}
-\label{sec:org7521771}
+\label{sec:orgb800506}
 
 See the code below:
 
@@ -3737,7 +3765,7 @@ print(object.Var, object.fun())
  entities of the same names} derived from the Level0 class.
 
 \subsection{How python treat classes}
-\label{sec:org638aaf7}
+\label{sec:orgd88a0a1}
 \begin{itemize}
 \item When you try to access any object’s entity, Python will try (in this
 order):
@@ -3792,7 +3820,7 @@ print(object.Var, object.fun())
 \end{enumerate}
 \end{itemize}
 \subsection{polymorphism}
-\label{sec:org13bda77}
+\label{sec:org3ea0c3d}
 
 the situation in which the subclass is able to modify its superclass
 behavior (just like in the example below) is called polymorphism. The
@@ -3837,7 +3865,7 @@ doit from One
 doit from Two
 \end{verbatim}
 \subsection{Composition}
-\label{sec:org115187e}
+\label{sec:org16e5e88}
 Composition is the process of \textbf{composing an object using other}
 \textbf{different objects}. The objects used in the composition deliver a set
 of desired traits (properties and/or methods) so we can say that they
@@ -3896,9 +3924,9 @@ tracks:  False False
 \newpage
 
 \section{Working with files}
-\label{sec:org06ed78d}
+\label{sec:org0bd0d46}
 \subsection{Addressing}
-\label{sec:orgb853fbf}
+\label{sec:orgfd5763f}
 Python is smart enough to be able to convert slashes into backslashes
 each time it discovers that it’s required by the OS. This means that
 any the following assignments will work with Windows, too:
@@ -3908,7 +3936,7 @@ any the following assignments will work with Windows, too:
 \texttt{name = "c:/dir/file"}
 
 \subsection{Open Modes}
-\label{sec:org97516bb}
+\label{sec:orgc4b4246}
 To connect (bind) the stream with the file, it’s necessary to perform
 an explicit operation.  The operation of connecting the stream with a
 file is called opening the file, while disconnecting this link is
@@ -3970,7 +3998,7 @@ remains untouched
 \newpage
 
 \subsection{I/O}
-\label{sec:orgcfa4abf}
+\label{sec:orgb07b45a}
 When you read something from a stream, a virtual head moves over the
 stream according to the number of bytes transferred from the stream.
 When you write something to the stream, the same head moves along the
@@ -3999,7 +4027,7 @@ the file and will remove the object.
 \newpage
 
 \subsubsection{Reading files}
-\label{sec:org4a82baf}
+\label{sec:orgbf215da}
 \begin{itemize}
 \item \textbf{Text File}: These ones are structured in lines; that is, they contain
 typographical characters (letters, digits, punctuation, etc.)
@@ -4016,7 +4044,7 @@ relate to portions of data of any size. Hence the data is
 \end{itemize}
 
 \subsubsection{End-OF-Line issue}
-\label{sec:org71ff592}
+\label{sec:orgb9160b8}
 Since portability issues were (and still are) very serious, a decision
 was made to definitely resolve the issue in a way that doesn’t engage
 the developer’s attention.
@@ -4049,7 +4077,7 @@ taken as-is, without any conversion – no bytes are added or omitted.
 \newpage
 
 \subsection{Error handling}
-\label{sec:orgc3670da}
+\label{sec:orgafd0a4c}
 Fortunately, there is a function that can dramatically simplify the
 error handling code. It’s named \texttt{strerror()}, it comes from \texttt{os} module
 and expects just one argument – an error number.  Its role is simple:
@@ -4069,7 +4097,7 @@ except Exception as exc:
 \end{minted}
 
 \subsection{\texttt{read()}}
-\label{sec:org1ef3db1}
+\label{sec:org59f8b3b}
 If applied to a text file, the function is able to:
 
 \begin{itemize}
@@ -4104,7 +4132,7 @@ Characters in file: 446
 \end{verbatim}
 
 \subsection{\texttt{readline()}}
-\label{sec:org17a9b24}
+\label{sec:org256450e}
 If you want to treat the file’s contents as a set of lines, not a
 bunch of characters, the \textbf{readline()} method will help you with that.
 The method tries to read a complete line of text from the file, and
@@ -4135,7 +4163,7 @@ Lines in file:      7
 \end{verbatim}
 
 \subsection{\texttt{readlines()}}
-\label{sec:orgc8c1559}
+\label{sec:orgce143cf}
 The \texttt{readlines()} method, when invoked without arguments, tries to
 read all the file contents, and \textbf{returns a list of strings, one}
 \textbf{element per file line.} If you’re not sure that the file size is
@@ -4175,7 +4203,7 @@ Lines in file:      383
 \vspace{10 mm}
 
 \subsection{\texttt{write()}}
-\label{sec:orgd7f43a3}
+\label{sec:orgb683859}
 Writing text files seems to be simpler, as in fact there is one method
 that can be used to perform such a task.  The method is named
 \texttt{write()} and it expects just one argument – a string that will be
@@ -4219,7 +4247,7 @@ except Exception as e:
 \end{verbatim}
 
 \subsubsection{Write to stderr}
-\label{sec:org138a2b8}
+\label{sec:orgb432570}
 You can use the same method to write to the \texttt{stderr} stream, but
 don’t try to open it, as it’s always open implicitly. For example, if
 you want to send a message string to stderr to distinguish it from
@@ -4232,7 +4260,7 @@ sys.stderr.write("Error message")
 
 
 \subsection{\texttt{with} statement}
-\label{sec:org6594fc4}
+\label{sec:org3a92e7c}
 Python’s \texttt{with} statement was first introduced five years ago, in Python
 2.5. It’s handy when you have two related operations which you’d like
 to execute as a pair, with a block of code in between. The classic
@@ -4257,7 +4285,7 @@ file in those cases, too.
 
 
 \subsection{Amorphous data}
-\label{sec:org1e57dcd}
+\label{sec:orgfd47d07}
 Amorphous data is data which have no specific shape or form – they are
 just a series of bytes. The most important aspect of this is that in
 the place where we have contact with the data, we are not able to, or
@@ -4287,7 +4315,7 @@ doesn’t come from the range* 0 to 255* inclusive (unless you want to
 provoke a \texttt{ValueError} exception).
 
 \subsubsection{Write bytearray to binary file}
-\label{sec:orga84a270}
+\label{sec:orgb8bcac7}
 Now we’re going to show you how to write a byte array to a binary file
 – binary, as we don’t want to save its readable representation – we
 want to write a \textbf{one-to-one} copy of the physical memory content, byte
@@ -4321,7 +4349,7 @@ The Binary file:  b'\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13'
 \end{verbatim}
 
 \subsubsection{\texttt{readinto()}}
-\label{sec:org40f5889}
+\label{sec:orgb722263}
 Reading from a binary file requires use of a specialized method name
 readinto(), as the method doesn’t create a new byte array object, but
 fills a previously created one with the values taken from the binary
@@ -4384,7 +4412,7 @@ except IOError as e:
 \newpage
 
 \subsection{Copy file program}
-\label{sec:org082eb67}
+\label{sec:orgc0bef1c}
 
 \begin{minted}[linenos,firstnumber=1]{python}
 from os import strerror
@@ -4423,9 +4451,9 @@ dst.close()
 \newpage
 
 \section{Advanced Bonuses}
-\label{sec:org6e2bbfb}
+\label{sec:org3be47f7}
 \subsection{Generators}
-\label{sec:org4a5010f}
+\label{sec:org8da4ecc}
 A Python generator is a piece of specialized code able to produce a
 series of values, and to control the iteration process.
 
@@ -4434,7 +4462,7 @@ a more or less complex evaluation of, e.g., a polynomial, and is
 \textbf{invoked once – only once}.  A generator returns a \textbf{series of values}, and
 in general, is (implicitly) \textbf{invoked more than once}.
 \subsection{Iteration Protocol}
-\label{sec:org0736f67}
+\label{sec:org3208382}
 The iterator protocol is a way in which an object should behave to
 conform to the rules imposed by the context of the for and in
 statements. An object conforming to the iterator protocol is called an
@@ -4498,7 +4526,7 @@ Class iter
 \end{verbatim}
 
 \subsection{yield}
-\label{sec:org27b5e3f}
+\label{sec:org58233bb}
 Python offers a more effective, convenient, and elegant way of writing
 iterators. The concept is fundamentally based on a very specific and
 powerful mechanism provided by the keyword \texttt{yield}. 
@@ -4607,7 +4635,7 @@ print(fibs)
 \newpage
 
 \subsection{Conditional Expression}
-\label{sec:org13b3184}
+\label{sec:org5c1dff6}
 Conditional expression is a way of selecting one of two different
 values based on the result of a Boolean expression.
 
@@ -4649,7 +4677,7 @@ print(list)
 \newpage
 
 \subsection{Comprehensions vs Generators}
-\label{sec:org3a49463}
+\label{sec:org2e9b549}
 The \textbf{brackets} make a comprehension – the parentheses make a \textbf{generator.}
 
 \begin{minted}[linenos,firstnumber=1]{python}
@@ -4678,7 +4706,7 @@ message:
 \texttt{TypeError: object of type 'generator' has no len()}
 
 \subsection{lambda (anonymous function)}
-\label{sec:orgbf2dbbf}
+\label{sec:org73e4b30}
 \textbf{A lambda function is a function without a name} (you can also call it
 an anonymous function). Of course, such a statement immediately raises
 the question: how do you use anything that cannot be identified?
@@ -4715,7 +4743,7 @@ for a in range(-2,3):
 4 4
 \end{verbatim}
 \subsection{map()}
-\label{sec:org4e5d9fa}
+\label{sec:org4bcb8b1}
 The \textbf{map()} function applies the function passed by its first argument
 to all its second argument’s elements, and \textbf{returns an iterator}
 \textbf{delivering all subsequent function results.} You can use the resulting
@@ -4740,7 +4768,7 @@ print()
 1 4 16 64 256 
 \end{verbatim}
 \subsection{filter()}
-\label{sec:org15b85a6}
+\label{sec:orge170467}
 Another Python function which can be significantly beautified by the
 application of a lambda is \textbf{filter()}. It expects the same kind of
 arguments as \textbf{map()}, but does something different – it filters its
@@ -4762,13 +4790,13 @@ print(filtered)
 \end{minted}
 
 \begin{verbatim}
-[8, -4, -10, -4, 2]
-[8, 2]
+[4, 4, -8, 1, -5]
+[4, 4]
 \end{verbatim}
 \vspace{10 mm}
 
 \subsection{closures}
-\label{sec:orgd65fbb5}
+\label{sec:orgdba32fd}
 There is a brand new element in it – a function (named \textbf{inner}) inside
 another function (named \textbf{outer}).
 

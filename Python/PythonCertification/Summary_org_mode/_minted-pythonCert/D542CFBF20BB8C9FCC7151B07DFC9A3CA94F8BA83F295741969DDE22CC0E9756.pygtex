@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{str} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}this is string example....wow!!!\PYGZdq{}}
+\PYG{k}{print} \PYG{p}{(}\PYG{n+nb}{str}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(} \PYG{p}{))}
+\PYG{k}{print} \PYG{p}{(}\PYG{n+nb}{str}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}i\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{))}
+\PYG{k}{print} \PYG{p}{(}\PYG{n+nb}{str}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}w\PYGZsq{}}\PYG{p}{))}
+\end{Verbatim}
