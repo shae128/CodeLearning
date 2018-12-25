@@ -1,0 +1,26 @@
+* DONE take file name
+CLOSED: [2018-12-25 Tue 14:51]
+
+* DONE if the file does not exist prompt to enter desire text then save the file
+CLOSED: [2018-12-25 Tue 14:51]
+
+* DONE if the file exist ask user to:
+CLOSED: [2018-12-25 Tue 15:11]
+** Read file
+Simply show the file content
+
+** Delete file and start over
+Delete the file and put an empty file instead 
+
+** Append in file
+The user should be able to enter more text, and that text should be
+added to the existing text in the file.
+
+* DONE (Extra) Replace a single line
+CLOSED: [2018-12-25 Tue 16:07]
+Prompt for:
+1. The line number they want to update.
+2. The text that should replace that line.
+
+
+
