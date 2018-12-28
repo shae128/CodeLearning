@@ -1,3 +1,6 @@
 [submodule "orgLatex"]
 	path = orgLatex
 	url = https://github.com/shae128/orgLatex
+[submodule "Python/PirplePython/Projects/connect4"]
+	path = Python/PirplePython/Projects/connect4
+	url = https://github.com/shae128/connect4/
