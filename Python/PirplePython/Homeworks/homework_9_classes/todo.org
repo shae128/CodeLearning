@@ -1,0 +1,51 @@
+* TODO create class called *Vehicle*
+** DONE attributes
+   CLOSED: [2019-01-12 Sat 21:54]
+   Make, Model, Year, Weight
+*** DONE NeedsMaintenance boolean set to False
+    CLOSED: [2019-01-12 Sat 21:54]
+*** DONE TripsSinceMaintenance integer set to 0
+    CLOSED: [2019-01-12 Sat 21:54]
+** DONE add method to set all attributes
+   CLOSED: [2019-01-12 Sat 21:54]
+
+* TODO create subclass *Cars*
+** DONE attributes
+   CLOSED: [2019-01-12 Sat 22:04]
+   isDriving
+** TODO methods
+*** DONE *Drive* which set isDriving to True
+    CLOSED: [2019-01-12 Sat 22:04]
+*** DONE *Stop* which sets isDriving to Flase
+    CLOSED: [2019-01-12 Sat 22:04]
+
+* TODO increment TripsSinceMaintenance
+  Switching *isDriving* from true to false should increment the
+  "_TripsSinceMaintenance_" counter.
+
+* TODO change NeedsMaintenance 
+  when *TripsSinceMaintenance* exceeds *100*, then the *NeedsMaintenance* boolean
+  should be set to *true*.
+
+* TODO *Repair* method
+  Add a "Repair" method to either class that resets the TripsSinceMaintenance to
+  zero, and NeedsMaintenance to false.
+
+* TODO creating instances
+  Create 3 different cars, using your Cars class, and drive them all a different
+  number of times. Then print out their values for Make, Model, Year, Weight,
+  NeedsMaintenance, and TripsSinceMaintenance
+
+* TODO Extra Credit
+** TODO Create Planes subclass
+*** TODO attributes
+    isFlying
+*** TODO methods
+**** TODO *Flying* which set isFlying to True
+**** TODO *Landing* which set isFlying to Flase
+
+** TODO Reject attempts to fly
+   Once the NeedsMaintenance boolean gets set to true, any attempt at flight
+   should be rejected (return false), and an error message should be printed
+   saying that the plane can't fly until it's repaired.
+
