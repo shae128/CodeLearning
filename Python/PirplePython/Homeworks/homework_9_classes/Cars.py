@@ -1,11 +1,11 @@
-import vehicleClass as Vehicle
+from Vehicles import Vehicles
 import random
 
 
-class Cars(Vehicle):
+class Cars(Vehicles):
     def __init__(self, Make, Model, Year, Weight):
-        Vehicle.__init__(self, Make, Model, Year, Weight)
-        isDriving = False
+        Vehicles.__init__(self, Make, Model, Year, Weight)
+        self.isDriving = False
 
     def Repair(self):
         self.TripsSinceMaintenance = 0
@@ -60,8 +60,10 @@ def testDrive(car):
               car.TripsSinceMaintenance)
 
 
+print("--------------------")
 testDrive(Car1)
 print("--------------------")
 testDrive(Car2)
 print("--------------------")
 testDrive(Car3)
+print("--------------------")

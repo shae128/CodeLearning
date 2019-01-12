@@ -1,4 +1,5 @@
-* TODO create class called *Vehicle*
+* DONE create class called *Vehicle*
+CLOSED: [2019-01-12 Sat 23:42]
 ** DONE attributes
    CLOSED: [2019-01-12 Sat 21:54]
    Make, Model, Year, Weight
@@ -9,42 +10,55 @@
 ** DONE add method to set all attributes
    CLOSED: [2019-01-12 Sat 21:54]
 
-* TODO create subclass *Cars*
+* DONE create subclass *Cars*
+CLOSED: [2019-01-12 Sat 23:42]
 ** DONE attributes
    CLOSED: [2019-01-12 Sat 22:04]
    isDriving
-** TODO methods
+** DONE methods
+CLOSED: [2019-01-12 Sat 23:42]
 *** DONE *Drive* which set isDriving to True
     CLOSED: [2019-01-12 Sat 22:04]
 *** DONE *Stop* which sets isDriving to Flase
     CLOSED: [2019-01-12 Sat 22:04]
 
-* TODO increment TripsSinceMaintenance
+* DONE increment TripsSinceMaintenance
+CLOSED: [2019-01-12 Sat 23:42]
   Switching *isDriving* from true to false should increment the
   "_TripsSinceMaintenance_" counter.
 
-* TODO change NeedsMaintenance 
+* DONE change NeedsMaintenance 
+CLOSED: [2019-01-12 Sat 23:42]
   when *TripsSinceMaintenance* exceeds *100*, then the *NeedsMaintenance* boolean
   should be set to *true*.
 
-* TODO *Repair* method
+* DONE *Repair* method
+CLOSED: [2019-01-12 Sat 23:42]
   Add a "Repair" method to either class that resets the TripsSinceMaintenance to
   zero, and NeedsMaintenance to false.
 
-* TODO creating instances
+* DONE creating instances
+CLOSED: [2019-01-12 Sat 23:42]
   Create 3 different cars, using your Cars class, and drive them all a different
   number of times. Then print out their values for Make, Model, Year, Weight,
   NeedsMaintenance, and TripsSinceMaintenance
 
-* TODO Extra Credit
-** TODO Create Planes subclass
-*** TODO attributes
+* DONE Extra Credit
+CLOSED: [2019-01-13 Sun 00:20]
+** DONE Create Planes subclass
+CLOSED: [2019-01-13 Sun 00:20]
+*** DONE attributes
+CLOSED: [2019-01-12 Sat 23:45]
     isFlying
-*** TODO methods
-**** TODO *Flying* which set isFlying to True
-**** TODO *Landing* which set isFlying to Flase
+*** DONE methods
+CLOSED: [2019-01-13 Sun 00:20]
+**** DONE *Flying* which set isFlying to True
+CLOSED: [2019-01-13 Sun 00:20]
+**** DONE *Landing* which set isFlying to Flase
+CLOSED: [2019-01-13 Sun 00:20]
 
-** TODO Reject attempts to fly
+** DONE Reject attempts to fly
+CLOSED: [2019-01-13 Sun 00:20]
    Once the NeedsMaintenance boolean gets set to true, any attempt at flight
    should be rejected (return false), and an error message should be printed
    saying that the plane can't fly until it's repaired.

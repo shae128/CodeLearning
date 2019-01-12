@@ -1,4 +1,4 @@
-class Vehicle:
+class Vehicles:
     def __init__(self, Make, Model, Year, Weight):
         self.Make = Make
         self.Model = Model
