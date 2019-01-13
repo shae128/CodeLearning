@@ -1,3 +1,4 @@
+# Vehicles class
 class Vehicles:
     def __init__(self, Make, Model, Year, Weight):
         self.Make = Make
@@ -20,6 +21,7 @@ class Vehicles:
     def defineWeight(self, Weight):
         self.Make = Weight
 
+    # repair method
     def Repair(self):
         self.TripsSinceMaintenance = 0
         self.NeedsMaintenance = False
